@@ -1,0 +1,5 @@
+model,acc,prec,rec,f1
+Linear SVM (BoW full),0.6132,0.9966,0.4026,0.5735
+Logistic Regression (BoW full),0.6116,0.9966,0.4,0.5709
+Random Forest (chi2 k=500),0.611,0.9949,0.3998,0.5704
+Decision Tree (chi2 k=500),0.6046,0.9896,0.3918,0.5614

