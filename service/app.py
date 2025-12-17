@@ -22,13 +22,15 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# Enable CORS for localhost (extension calls)
+# Enable CORS for extension calls
+# Note: Browser extensions make requests without Origin header or with null Origin
+# We need to allow all origins for extension compatibility while binding to localhost for security
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, restrict to specific origins
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_origins=["*"],  # Required for browser extension compatibility
+    allow_credentials=False,  # Set to False when using allow_origins=["*"]
+    allow_methods=["GET", "POST"],
+    allow_headers=["Content-Type"],
 )
 
 # Models
@@ -66,11 +68,15 @@ USE_OPENAI = OPENAI_API_KEY is not None
 
 if USE_OPENAI:
     try:
-        import openai
-        openai.api_key = OPENAI_API_KEY
+        from openai import OpenAI
+        # Test that we can create a client
+        test_client = OpenAI(api_key=OPENAI_API_KEY)
         logger.info("OpenAI integration enabled")
     except ImportError:
         logger.warning("OpenAI package not installed. Install with: pip install openai")
+        USE_OPENAI = False
+    except Exception as e:
+        logger.warning(f"OpenAI initialization failed: {e}")
         USE_OPENAI = False
 else:
     logger.info("OpenAI API key not found. Using heuristic analysis only.")
@@ -191,7 +197,8 @@ async def openai_analysis(report: AnalysisReport, heuristic_result: AnalysisResp
     Enhanced analysis using OpenAI (optional, when API key is available)
     """
     try:
-        import openai
+        from openai import OpenAI
+        client = OpenAI(api_key=OPENAI_API_KEY)
         
         # Prepare context for OpenAI
         evidence_summary = []
@@ -220,7 +227,7 @@ Based on this evidence, provide:
 
 Focus on practical, actionable insights."""
 
-        response = openai.ChatCompletion.create(
+        response = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": "You are a cybersecurity expert specializing in XSS vulnerability analysis."},
@@ -234,7 +241,7 @@ Focus on practical, actionable insights."""
         
         # Parse AI response and combine with heuristic
         # For simplicity, use heuristic structure but enhance summary with AI insights
-        enhanced_result = heuristic_result.copy()
+        enhanced_result = heuristic_result.model_copy()
         enhanced_result.summary = ai_text[:500]  # Use AI summary
         
         logger.info("OpenAI analysis completed successfully")
