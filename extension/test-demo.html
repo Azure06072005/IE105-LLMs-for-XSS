@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XSS Risk Detector - Comprehensive Test Suite</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        
+        .warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+        }
+        
+        .warning strong {
+            display: block;
+            margin-bottom: 10px;
+            color: #856404;
+        }
+        
+        .content {
+            padding: 20px;
+        }
+        
+        .test-section {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 4px solid #667eea;
+        }
+        
+        .test-section h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+        
+        .test-section h3 {
+            color: #333;
+            margin: 15px 0 10px;
+            font-size: 18px;
+        }
+        
+        .severity-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-left: 10px;
+        }
+        
+        .severity-high {
+            background: #ffebee;
+            color: #c62828;
+        }
+        
+        .severity-medium {
+            background: #fff3e0;
+            color: #e65100;
+        }
+        
+        .severity-low {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+        
+        .demo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 15px 0;
+        }
+        
+        .demo-item {
+            background: white;
+            padding: 15px;
+            border-radius: 6px;
+            border: 2px solid #e0e0e0;
+            transition: all 0.3s;
+        }
+        
+        .demo-item:hover {
+            border-color: #667eea;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .demo-item h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s;
+            margin: 5px;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+        
+        .danger-btn {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);
+        }
+        
+        .danger-btn:hover {
+            box-shadow: 0 4px 12px rgba(255, 107, 107, 0.4);
+        }
+        
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+        }
+        
+        .console-output {
+            background: #1e1e1e;
+            color: #d4d4d4;
+            padding: 20px;
+            border-radius: 6px;
+            margin: 20px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        
+        .console-output .log {
+            color: #4ec9b0;
+        }
+        
+        .console-output .error {
+            color: #f48771;
+        }
+        
+        .console-output .warn {
+            color: #dcdcaa;
+        }
+        
+        .instructions {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .instructions h3 {
+            color: #1976d2;
+            margin-bottom: 15px;
+        }
+        
+        .instructions ol {
+            margin-left: 20px;
+        }
+        
+        .instructions li {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        
+        footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .stat-card .number {
+            font-size: 36px;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+        
+        .stat-card .label {
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔍 XSS Risk Detector</h1>
+            <p>Comprehensive Test Suite for Extension Validation</p>
+        </header>
+        
+        <div class="warning">
+            <strong>⚠️ Security Notice</strong>
+            This page intentionally contains XSS vulnerability patterns for testing purposes. 
+            These patterns are safe in this controlled environment but would be dangerous in production.
+            Do NOT use these patterns in real applications.
+        </div>
+        
+        <div class="content">
+            <div class="instructions">
+                <h3>📋 How to Test</h3>
+                <ol>
+                    <li>Ensure the <strong>XSS Risk Detector</strong> extension is loaded in Edge</li>
+                    <li>The extension should automatically detect static signals when this page loads</li>
+                    <li>Click the <strong>extension icon</strong> in the toolbar to open the popup</li>
+                    <li>Verify that evidence items are detected and displayed</li>
+                    <li>Click the test buttons below to trigger runtime detections</li>
+                    <li>Refresh the popup after clicking buttons to see new evidence</li>
+                    <li>Try the <strong>Export Report</strong> and <strong>Analyze with Service</strong> features</li>
+                    <li>Use the filters and sorting options in the popup</li>
+                </ol>
+            </div>
+            
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="number" id="totalTests">11</div>
+                    <div class="label">Test Types</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number" id="detectedCount">0</div>
+                    <div class="label">Tests Run</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number" id="runtimeTests">0</div>
+                    <div class="label">Runtime Tests</div>
+                </div>
+            </div>
+            
+            <!-- Test Section 1: Inline Event Handlers -->
+            <div class="test-section">
+                <h2>1. Inline Event Handlers <span class="severity-badge severity-medium">Medium</span></h2>
+                <p>These elements have JavaScript event handlers defined directly in HTML attributes.</p>
+                
+                <div class="demo-grid">
+                    <div class="demo-item">
+                        <h4>onclick</h4>
+                        <button onclick="logTest('onclick handler triggered')">Click Me</button>
+                    </div>
+                    
+                    <div class="demo-item">
+                        <h4>onmouseover</h4>
+                        <button onmouseover="logTest('onmouseover triggered')">Hover Me</button>
+                    </div>
+                    
+                    <div class="demo-item">
+                        <h4>onerror</h4>
+                        <img src="nonexistent.jpg" onerror="logTest('onerror handler triggered')" alt="Error test" style="display:none;">
+                        <p><code>&lt;img onerror="..."&gt;</code></p>
+                    </div>
+                    
+                    <div class="demo-item">
+                        <h4>onfocus</h4>
+                        <input type="text" onfocus="logTest('onfocus triggered')" placeholder="Click to focus">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Test Section 2: JavaScript Protocol -->
+            <div class="test-section">
+                <h2>2. JavaScript Protocol URLs <span class="severity-badge severity-high">High</span></h2>
+                <p>Links and resources using the <code>javascript:</code> protocol.</p>
+                
+                <div class="demo-grid">
+                    <div class="demo-item">
+                        <h4>Basic javascript: link</h4>
+                        <a href="javascript:logTest('JavaScript protocol link clicked')">Click this link</a>
+                    </div>
+                    
+                    <div class="demo-item">
+                        <h4>javascript:void(0)</h4>
+                        <a href="javascript:void(0)" onclick="logTest('Void link clicked')">Void link</a>
+                    </div>
+                    
+                    <div class="demo-item">
+                        <h4>Alert via javascript:</h4>
+                        <a href="javascript:alert('XSS Test')">Alert Link</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Test Section 3: Dynamic Code Execution -->
+            <div class="test-section">
+                <h2>3. Dynamic Code Execution <span class="severity-badge severity-high">High</span></h2>
+                <p>Click buttons to trigger dangerous JavaScript operations that will be detected by the extension.</p>
+                
+                <div class="demo-grid">
+                    <div class="demo-item">
+                        <h4>eval()</h4>
+                        <button class="danger-btn" onclick="testEval()">Trigger eval()</button>
+                        <p><small>Executes arbitrary code from string</small></p>
+                    </div>
+                    
+                    <div class="demo-item">
+                        <h4>Function() constructor</h4>
+                        <button class="danger-btn" onclick="testFunction()">Trigger Function()</button>
+                        <p><small>Creates function from string</small></p>
+                    </div>
+                    
+                    <div class="demo-item">
+                        <h4>setTimeout(string)</h4>
+                        <button class="danger-btn" onclick="testSetTimeout()">Trigger setTimeout</button>
+                        <p><small>Delayed code execution</small></p>
+                    </div>
+                    
+                    <div class="demo-item">
+                        <h4>setInterval(string)</h4>
+                        <button class="danger-btn" onclick="testSetInterval()">Trigger setInterval</button>
+                        <p><small>Repeated code execution</small></p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Test Section 4: DOM Manipulation -->
+            <div class="test-section">
+                <h2>4. DOM Manipulation Sinks <span class="severity-badge severity-medium">Medium</span></h2>
+                <p>Operations that directly manipulate the DOM with potential for script injection.</p>
+                
+                <div class="demo-grid">
+                    <div class="demo-item">
+                        <h4>innerHTML</h4>
+                        <button class="danger-btn" onclick="testInnerHTML()">Set innerHTML</button>
+                        <p><small>Direct HTML injection</small></p>
+                    </div>
+                    
+                    <div class="demo-item">
+                        <h4>outerHTML</h4>
+                        <button class="danger-btn" onclick="testOuterHTML()">Set outerHTML</button>
+                        <p><small>Replace element HTML</small></p>
+                    </div>
+                    
+                    <div class="demo-item">
+                        <h4>insertAdjacentHTML</h4>
+                        <button class="danger-btn" onclick="testInsertAdjacentHTML()">Insert HTML</button>
+                        <p><small>Insert HTML at position</small></p>
+                    </div>
+                    
+                    <div class="demo-item">
+                        <h4>document.write</h4>
+                        <button class="danger-btn" onclick="testDocumentWrite()">document.write()</button>
+                        <p><small>Write to document stream</small></p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Test Section 5: Inline Scripts -->
+            <div class="test-section">
+                <h2>5. Inline Script Blocks <span class="severity-badge severity-low">Low</span></h2>
+                <p>This page contains multiple inline <code>&lt;script&gt;</code> blocks that will be detected.</p>
+                <p><strong>Detected blocks:</strong> This page has at least 3 inline script blocks.</p>
+            </div>
+            
+            <!-- Console Output -->
+            <div class="test-section">
+                <h2>Test Console Output</h2>
+                <div class="console-output" id="consoleOutput">
+                    <div class="log">➜ Ready for testing. Click buttons above or check extension popup.</div>
+                </div>
+                <button onclick="clearConsole()">Clear Console</button>
+            </div>
+        </div>
+        
+        <footer>
+            <p><strong>XSS Risk Detector Test Suite v1.0</strong></p>
+            <p>Part of IE105 - LLMs for XSS Detection Project</p>
+            <p style="margin-top: 10px;">
+                <small>
+                    🔒 This test page is safe and operates in isolation. 
+                    All detected patterns are for educational purposes only.
+                </small>
+            </p>
+        </footer>
+    </div>
+    
+    <!-- Inline Script Block 1 - Basic Setup -->
+    <script>
+        // This inline script will be detected as LOW severity
+        console.log('XSS Test Suite loaded');
+        
+        let testCounter = 0;
+        
+        function logTest(message) {
+            testCounter++;
+            updateStats();
+            const output = document.getElementById('consoleOutput');
+            const entry = document.createElement('div');
+            entry.className = 'log';
+            entry.textContent = `[${new Date().toLocaleTimeString()}] ✓ ${message}`;
+            output.appendChild(entry);
+            output.scrollTop = output.scrollHeight;
+        }
+        
+        function logError(message) {
+            const output = document.getElementById('consoleOutput');
+            const entry = document.createElement('div');
+            entry.className = 'error';
+            entry.textContent = `[${new Date().toLocaleTimeString()}] ✗ ${message}`;
+            output.appendChild(entry);
+            output.scrollTop = output.scrollHeight;
+        }
+        
+        function logWarning(message) {
+            const output = document.getElementById('consoleOutput');
+            const entry = document.createElement('div');
+            entry.className = 'warn';
+            entry.textContent = `[${new Date().toLocaleTimeString()}] ⚠ ${message}`;
+            output.appendChild(entry);
+            output.scrollTop = output.scrollHeight;
+        }
+        
+        function clearConsole() {
+            document.getElementById('consoleOutput').innerHTML = '<div class="log">➜ Console cleared</div>';
+        }
+        
+        function updateStats() {
+            document.getElementById('detectedCount').textContent = testCounter;
+        }
+        
+        // Dynamic code execution tests
+        function testEval() {
+            try {
+                eval('logTest("eval() executed - HIGH RISK DETECTED")');
+                document.getElementById('runtimeTests').textContent = parseInt(document.getElementById('runtimeTests').textContent) + 1;
+            } catch (e) {
+                logError('eval() blocked: ' + e.message);
+            }
+        }
+        
+        function testFunction() {
+            try {
+                const fn = new Function('logTest("Function() constructor executed - HIGH RISK")');
+                fn();
+                document.getElementById('runtimeTests').textContent = parseInt(document.getElementById('runtimeTests').textContent) + 1;
+            } catch (e) {
+                logError('Function() blocked: ' + e.message);
+            }
+        }
+        
+        function testSetTimeout() {
+            try {
+                setTimeout('logTest("setTimeout(string) executed - HIGH RISK")', 100);
+                document.getElementById('runtimeTests').textContent = parseInt(document.getElementById('runtimeTests').textContent) + 1;
+            } catch (e) {
+                logError('setTimeout blocked: ' + e.message);
+            }
+        }
+        
+        let intervalId = null;
+        function testSetInterval() {
+            try {
+                intervalId = setInterval('logWarning("setInterval(string) triggered - HIGH RISK"); clearInterval(' + 'intervalId' + ')', 100);
+                document.getElementById('runtimeTests').textContent = parseInt(document.getElementById('runtimeTests').textContent) + 1;
+            } catch (e) {
+                logError('setInterval blocked: ' + e.message);
+            }
+        }
+        
+        // DOM manipulation tests
+        function testInnerHTML() {
+            try {
+                const div = document.createElement('div');
+                div.innerHTML = '<span>innerHTML test - MEDIUM RISK</span>';
+                logTest('innerHTML set successfully');
+                document.getElementById('runtimeTests').textContent = parseInt(document.getElementById('runtimeTests').textContent) + 1;
+            } catch (e) {
+                logError('innerHTML blocked: ' + e.message);
+            }
+        }
+        
+        function testOuterHTML() {
+            try {
+                const div = document.createElement('div');
+                div.outerHTML = '<span>outerHTML test - MEDIUM RISK</span>';
+                logTest('outerHTML set successfully');
+                document.getElementById('runtimeTests').textContent = parseInt(document.getElementById('runtimeTests').textContent) + 1;
+            } catch (e) {
+                logError('outerHTML blocked: ' + e.message);
+            }
+        }
+        
+        function testInsertAdjacentHTML() {
+            try {
+                const div = document.createElement('div');
+                document.body.appendChild(div);
+                div.insertAdjacentHTML('beforeend', '<span>insertAdjacentHTML test - MEDIUM RISK</span>');
+                logTest('insertAdjacentHTML executed successfully');
+                document.body.removeChild(div);
+                document.getElementById('runtimeTests').textContent = parseInt(document.getElementById('runtimeTests').textContent) + 1;
+            } catch (e) {
+                logError('insertAdjacentHTML blocked: ' + e.message);
+            }
+        }
+        
+        function testDocumentWrite() {
+            try {
+                // Be careful with document.write - can overwrite page
+                document.write('<!-- document.write test - MEDIUM RISK -->');
+                logWarning('document.write executed (check if page still works)');
+                document.getElementById('runtimeTests').textContent = parseInt(document.getElementById('runtimeTests').textContent) + 1;
+            } catch (e) {
+                logError('document.write blocked: ' + e.message);
+            }
+        }
+    </script>
+    
+    <!-- Inline Script Block 2 - Additional Code -->
+    <script>
+        // Another inline script block - will also be detected
+        document.addEventListener('DOMContentLoaded', function() {
+            logTest('Page fully loaded and ready for testing');
+            logWarning('Extension should detect multiple inline script blocks');
+        });
+        
+        // Some dummy code to increase script size
+        const testData = {
+            severity: 'low',
+            type: 'inline-script',
+            reason: 'This is an inline script block for testing'
+        };
+    </script>
+    
+    <!-- Inline Script Block 3 - More Test Code -->
+    <script>
+        // Third inline script block
+        window.addEventListener('load', function() {
+            console.log('All resources loaded');
+            logTest('Window load event triggered');
+        });
+    </script>
+</body>
+</html>
