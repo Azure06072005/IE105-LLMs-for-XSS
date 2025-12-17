@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XSS Risk Detector</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>XSS Risk Detector</h1>
+      <div id="riskBadge" class="risk-badge">
+        <span id="riskLevel">-</span>
+      </div>
+    </header>
+    
+    <section class="stats">
+      <div class="stat-item">
+        <span class="stat-label">Evidence Count:</span>
+        <span id="evidenceCount" class="stat-value">0</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">Current URL:</span>
+        <div id="currentUrl" class="stat-value url-display">-</div>
+      </div>
+    </section>
+    
+    <section class="filters">
+      <label for="typeFilter">Filter by Type:</label>
+      <select id="typeFilter">
+        <option value="all">All Types</option>
+        <option value="inline-event-handler">Inline Event Handlers</option>
+        <option value="javascript-protocol">JavaScript Protocol</option>
+        <option value="inline-script">Inline Scripts</option>
+        <option value="eval-call">Eval Calls</option>
+        <option value="function-constructor">Function Constructor</option>
+        <option value="document-write">Document.write</option>
+        <option value="innerhtml-set">innerHTML</option>
+        <option value="settimeout-string">setTimeout String</option>
+      </select>
+      
+      <label for="severityFilter">Filter by Severity:</label>
+      <select id="severityFilter">
+        <option value="all">All Severities</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+      
+      <label for="sortBy">Sort by:</label>
+      <select id="sortBy">
+        <option value="time-desc">Time (Newest First)</option>
+        <option value="time-asc">Time (Oldest First)</option>
+        <option value="severity-desc">Severity (High to Low)</option>
+        <option value="severity-asc">Severity (Low to High)</option>
+      </select>
+    </section>
+    
+    <section class="evidence-list">
+      <h2>Evidence</h2>
+      <div id="evidenceContainer" class="evidence-container">
+        <p class="loading">Loading evidence...</p>
+      </div>
+    </section>
+    
+    <section class="actions">
+      <button id="refreshBtn" class="btn btn-secondary">Refresh</button>
+      <button id="exportBtn" class="btn btn-primary">Export Report</button>
+      <button id="analyzeBtn" class="btn btn-accent">Analyze with Service</button>
+    </section>
+    
+    <section id="analysisResults" class="analysis-results" style="display: none;">
+      <h2>Service Analysis</h2>
+      <div class="analysis-content">
+        <div class="analysis-item">
+          <span class="analysis-label">Risk Score:</span>
+          <span id="analysisScore" class="analysis-value">-</span>
+        </div>
+        <div class="analysis-item">
+          <span class="analysis-label">Verdict:</span>
+          <span id="analysisVerdict" class="analysis-value">-</span>
+        </div>
+        <div class="analysis-item">
+          <span class="analysis-label">Summary:</span>
+          <div id="analysisSummary" class="analysis-value">-</div>
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+      <p class="privacy-notice">
+        <small>🔒 All data stays local. Reports are saved by you. Service calls only to localhost.</small>
+      </p>
+    </footer>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
