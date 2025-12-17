@@ -1,0 +1,5 @@
+source,technique,n,semantic_match,pass_parse,pass_innerhtml
+3.2_multi,base64,200,0.0,1.0,1.0
+3.4_llm_t1.0,urlencode,184,0.0,1.0,1.0
+3.4_llm_t1.5,urlencode,110,0.0,1.0,1.0
+3.4_tool,base64,200,0.0,1.0,1.0
